@@ -1,12 +1,12 @@
 # sennevleminckx.be
 
-Personal site — living CV and consultancy shopfront for Senne Vleminckx.
-Built with [Quarto](https://quarto.org) (HTML website), self-hosted fonts, a
-single SCSS theme, and no JavaScript framework.
+Personal academic site — a CV that also offers consultancy. Built with
+[Quarto](https://quarto.org) (HTML website), self-hosted fonts, and a single SCSS
+theme. No JavaScript framework, no build step beyond Quarto.
 
 ## Run locally
 
-Requires Quarto (this was built with 1.9.x):
+Requires Quarto (built with 1.9.x):
 
 ```bash
 quarto preview      # live-reloading local server
@@ -18,74 +18,69 @@ A build must finish with **no warnings**.
 ## Project layout
 
 ```
-index.qmd          Home (client-facing)
-services.qmd       What I offer
-work.qmd           Case-study index (auto-listing over work/)
-work/_template.qmd Copy this to add a case study
-work/NN-*.qmd      Case studies (three stubs for now)
-cv.qmd             Academic CV
-publications.qmd   Rendered from references.bib
+index.qmd          Home — who I am, what I research, links
+cv.qmd             Curriculum vitae (built from the real CV)
+publications.qmd   Rendered from bib/*.bib
+consultancy.qmd    The consultancy offer
 contact.qmd        Email + profiles
 legal.qmd          Company details + privacy notice
-references.bib     Publications source (edit this to add one)
-styles.scss        The whole theme (palette, type, layout, rota motif)
-assets/fonts/      Self-hosted woff2 (IBM Plex Sans/Mono, Source Serif 4)
-assets/cv.pdf      Downloadable CV (placeholder — replace)
+bib/               One .bib per publication status (see below)
+assets/reverse-chron.csl   Citation style (newest first, links DOIs/URLs)
+styles.scss        The whole theme (quiet, sans-serif, portrait-led)
+assets/fonts/      Self-hosted IBM Plex Sans (400/500/600)
+assets/cv.pdf      Downloadable CV (see below)
+assets/img/        Portrait (TODO) + favicon
 CNAME              Custom domain; copied into _site on every render
 ```
 
-Navbar: **Home · Services · Work · CV · Publications**, with **Contact** at the
-right. Footer links to **Legal & privacy**.
-
-## Add a case study
-
-1. Copy the template:
-   ```bash
-   cp work/_template.qmd work/04-short-slug.qmd
-   ```
-2. Fill in `title`, `subtitle`, `categories`, and the five sections. Keep it
-   150–250 words. Keep the final **“What I’d do differently”** section — it is
-   deliberate.
-3. `quarto preview` — it appears on `work.qmd` automatically, no index editing.
+Navbar: **Home · CV · Publications · Consultancy**, with **Contact** at the right.
+Footer links to **Legal & privacy**.
 
 ## Add a publication
 
-Add one entry to `references.bib`. Type controls grouping:
+Publications live in `bib/`, split by status:
 
-- `@article` — journal articles
-- `@inproceedings` — conference contributions
-- `@phdthesis` / `@mastersthesis` — theses
+- `bib/peer-reviewed.bib`
+- `bib/under-review.bib`
+- `bib/in-preparation.bib`
+- `bib/outputs.bib` (datasets, protocols)
+- `bib/thesis.bib`
 
-Include a `doi = {...}` field where one exists; it renders as a link. The
-Publications page picks it up automatically (newest first) via `nocite: "@*"`.
+Add one BibTeX entry to the matching file. Include `doi = {...}` (or `url = {...}`
+for datasets/registrations); it renders as a link. The Publications page picks it up
+automatically, newest first.
 
-> The two entries currently in `references.bib` are **format examples**.
-> Replace them; do not ship them.
+## The CV PDF
+
+`assets/cv.pdf` is generated from the separate LaTeX CV project (`~/Downloads/autoCV`):
+
+```bash
+cd ~/Downloads/autoCV && latexmk -pdf cv.tex
+cp cv.pdf ~/senne-site/assets/cv.pdf
+```
+
+The on-site CV (`cv.qmd`) and the PDF are maintained together — update both when your
+CV changes.
 
 ## Design in one paragraph
 
-One measured reading column; structure comes from hairline rules and space, not
-boxes. Headings in **IBM Plex Sans**, body in **Source Serif 4**, small labels
-and numbers in **IBM Plex Mono** (the “data voice”). Palette is a cool
-off-white paper with deep-slate ink and a single **brick accent** spent in one
-place: the **rota band** — an abstract nurse roster where one cell is
-highlighted, the signal in the scheduling data. All colours meet WCAG AA;
-motion respects `prefers-reduced-motion`; fonts are self-hosted.
+Quiet and restraint over ornament: one centred column, generous whitespace, hairline
+rules, IBM Plex Sans throughout, a near-monochrome palette with a single restrained
+link colour. The home page leads with a portrait, a one-line role, a short plain
+statement, and a row of external links — academic-first, consultancy second. Fonts are
+self-hosted; colours meet WCAG AA; motion respects `prefers-reduced-motion`.
 
 ## Deploy
 
-See **[DEPLOY.md](DEPLOY.md)** for GitHub Pages, the custom domain, and the
-exact DNS records.
+See **[DEPLOY.md](DEPLOY.md)** for GitHub Pages, the custom domain, and the exact DNS
+records.
 
 ## Placeholders still to fill (`TODO(senne)`)
-
-Search the project for `TODO(senne)`:
 
 ```bash
 grep -rn "TODO(senne)" . --include=*.qmd --include=*.bib --include=*.yml
 ```
 
-Current list: headshot; real `assets/cv.pdf`; CV awarding institution, nurse
-degree, teaching/supervision/service entries; real publications; contact email;
-LinkedIn + ORCID; legal identification (trading name, address, ondernemingsnummer,
-BTW); the case-study bodies; and the day-rate / ORCID-sync / analytics decisions.
+Current list: headshot (`assets/img/senne.jpg`); University staff-profile URL; whether
+to use a separate consultancy email; day-rate decision; ORCID-sync vs manual bib; legal
+identifiers (trading name, address, ondernemingsnummer, BTW) and the analytics clause.

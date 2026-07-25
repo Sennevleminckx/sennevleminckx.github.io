@@ -1,7 +1,12 @@
 ---
 title: "Publications"
-description: "Peer-reviewed articles, conference contributions and theses."
-bibliography: references.bib
+description: "Peer-reviewed articles, manuscripts under review, and research outputs."
+bibliography:
+  - bib/peer-reviewed.bib
+  - bib/under-review.bib
+  - bib/in-preparation.bib
+  - bib/outputs.bib
+  - bib/thesis.bib
 csl: assets/reverse-chron.csl
 nocite: |
   @*
@@ -9,14 +14,9 @@ link-citations: true
 toc: false
 ---
 
-[Peer-reviewed record]{.eyebrow}
+Newest first. Names are as listed on each record; links go to the DOI or registration where one exists.
 
-Every entry below is generated from a single BibTeX file, newest first. DOIs link to the published record where one exists.
-
-::: {.callout-note appearance="simple"}
-[TODO]{.todo} — the two entries shown are format examples, not real records. Replace them in `references.bib`.
 <!-- TODO(senne): decide ORCID sync vs manual bib maintenance -->
-:::
 
 ::: {#refs}
 :::
