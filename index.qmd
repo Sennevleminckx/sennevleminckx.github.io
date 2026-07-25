@@ -8,11 +8,7 @@ toc: false
 ::::: {.intro}
 
 :::: {.portrait}
-::: {.portrait--placeholder}
-Photo — TODO(senne): add `assets/img/senne.jpg`
-:::
-<!-- When you have a headshot, replace the block above with:
-     ![Senne Vleminckx](assets/img/senne.jpg){.portrait-img} -->
+<img src="assets/img/senne.jpg" alt="Portrait of Senne Vleminckx" width="200" height="250">
 ::::
 
 :::: {.intro__text}
