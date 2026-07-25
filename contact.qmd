@@ -7,12 +7,10 @@ toc: false
 For consultancy, a useful first message says three things: the **problem**, the **data** you have (or plan to collect), and your **timeline**. I reply within a few working days.
 
 ::: {.contact-lines}
-- [Email]{.k} [<a class="email-primary" href="mailto:senne&#46;vleminckx&#64;uantwerpen&#46;be">senne&#46;vleminckx&#64;uantwerpen&#46;be</a>]{.v}
+- [Email]{.k} [<a class="email-primary" href="mailto:senne&#46;vleminckx&#64;icloud&#46;com">senne&#46;vleminckx&#64;icloud&#46;com</a>]{.v}
 - [LinkedIn]{.k} [linkedin.com/in/senne-vleminckx](https://www.linkedin.com/in/senne-vleminckx/)
 - [ORCID]{.k} [0000-0001-9647-4785](https://orcid.org/0000-0001-9647-4785)
 - [GitHub]{.k} [github.com/Sennevleminckx](https://github.com/Sennevleminckx)
 :::
-
-<!-- TODO(senne): decide whether to use a separate consultancy email instead of the university address. -->
 
 For company and privacy details, see [Legal & privacy](legal.qmd).

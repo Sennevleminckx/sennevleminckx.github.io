@@ -1,56 +1,55 @@
 ---
 title: "Consultancy"
-description: "Statistical and methodological consultancy for health research, clinical operations and health-tech."
+description: "Data analysis and statistical support for health research, clinical operations and health-tech."
+page-layout: article
 toc: false
 ---
 
-Alongside my research I take on a limited amount of consultancy — for research groups, hospitals, policy bodies and health-tech teams that need a statistician or methodologist for a specific piece of work.
+Alongside my research I take on a limited amount of consultancy — mostly **data analysis** for teams that already have the data.
+
+::: {.offer-lead}
+### Data analysis
+You have the data — from a study, a hospital system, a survey — and you want answers you can rely on. I take it from raw data to a clear, defensible result: the right model, reproducible code, and a plain account of what it does and does not support.
+:::
+
+I also help with the work around the analysis:
 
 :::: {.offers}
 
 ::: {.offer}
 ### Study & survey design
-Sample size, choice of measures, and the design decisions that determine whether the data can answer the question.
-[For teams about to collect data — a trial, cohort, survey or audit.]{.who}
+Sample size and measurement choices, so the data can answer the question later.
 :::
 
 ::: {.offer}
 ### Instrument validation & psychometrics
-Factor structure, reliability, and measurement invariance for questionnaires, indices and rating scales.
-[For teams building or adopting an instrument.]{.who}
-:::
-
-::: {.offer}
-### Statistical analysis & modelling
-Multilevel, survival and Bayesian models, and causal inference for observational data.
-[For groups with data in hand and a decision to make.]{.who}
+Factor structure, reliability and measurement invariance for questionnaires and scales.
 :::
 
 ::: {.offer}
 ### Simulation & health economics
-Patient-flow and capacity modelling, agent-based simulation, and cost-effectiveness analysis.
-[For managers and policy bodies weighing a change.]{.who}
+Patient-flow and capacity modelling, agent-based simulation, cost-effectiveness.
 :::
 
 ::: {.offer}
-### Statistical review & second opinion
-An independent read of an analysis — before submission, or after a reviewer's report.
-[For authors, editors and teams who need a check.]{.who}
-:::
-
-::: {.offer}
-### Training
-Research methods and applied statistics for clinical and research teams.
-[For departments who want to build the skill in-house.]{.who}
+### Review & second opinion
+An independent read of an analysis before submission, or after a reviewer's report.
 :::
 
 ::::
 
-## How it works
+## Pricing
 
-An initial call to understand the problem, then a short written scope — the question, the approach, the deliverable and the timeline — and then the agreed work.
+::: {.price}
+[€60 / hour]{.amt}
+Tutoring and one-to-one teaching (statistics, Python, research methods).
+:::
 
-I work as a registered self-employed practitioner in Belgium and invoice accordingly. Rates are discussed at the scoping call.
-<!-- TODO(senne): decide whether to state a day rate -->
+::: {.price}
+[Per project]{.amt}
+Data-analysis and larger pieces of work are scoped and priced individually, discussed at a first call.
+:::
+
+I work as a registered self-employed practitioner in Belgium and invoice accordingly.
 
 [Get in touch](contact.qmd){.pill}

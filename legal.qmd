@@ -1,35 +1,22 @@
 ---
 title: "Legal & privacy"
-description: "Company identification and privacy notice."
-toc: true
-toc-title: "On this page"
+page-layout: article
+toc: false
 ---
 
 ## Company identification
 
-Belgian self-employed practitioners must display their identifying details.
-
 ::: {.contact-lines}
-- [Trading name]{.k} [<span class="todo">TODO(senne): registered trading name</span>]{.v}
-- [Registered address]{.k} [<span class="todo">TODO(senne): registered address</span>]{.v}
-- [Company no.]{.k} [<span class="todo">TODO(senne): ondernemingsnummer</span>]{.v}
-- [VAT / BTW]{.k} [<span class="todo">TODO(senne): BTW number (BExxxx.xxx.xxx)</span>]{.v}
-- [Email]{.k} [<a href="mailto:senne&#46;vleminckx&#64;uantwerpen&#46;be">senne&#46;vleminckx&#64;uantwerpen&#46;be</a>]{.v}
+- [Trading name]{.k} [Vleminckx Consultancy bv]{.v}
+- [Registered address]{.k} [Schooldreef 62, 2920 Kalmthout, Belgium]{.v}
+- [Company number]{.k} [BE 0785.296.063]{.v}
+- [Email]{.k} [<a href="mailto:senne&#46;vleminckx&#64;icloud&#46;com">senne&#46;vleminckx&#64;icloud&#46;com</a>]{.v}
 :::
 
 ## Privacy notice
 
-This is a static website. It sets **no cookies** and uses **no third-party trackers**.
+This is a static website. It sets **no cookies**, uses **no third-party trackers**, and runs **no analytics** — no data about your visit is collected.
 
-**What is collected.** Nothing beyond aggregate, anonymous visit statistics (page views and referrers), if analytics are enabled at all. These figures cannot identify you and are not linked to any other data.
-<!-- TODO(senne): if you enable GoatCounter/Plausible, name it here; if not, delete the "if analytics are enabled" clause. -->
+If you email me, I keep your message and reply; I do not use it for anything else.
 
-**What is not collected.** No account, no contact form, no advertising or profiling. If you email me, I keep your message and reply; I do not use it for anything else.
-
-**Your rights.** Under the GDPR you may ask what data I hold about you, ask me to correct or delete it, or object to its use. Contact me at the address above.
-
-<!-- TODO(senne): confirm exact wording with accountant -->
-
-::: {.callout-note appearance="simple"}
-[TODO]{.todo} — company identification fields and the analytics clause are placeholders. Confirm the exact wording with your accountant before publishing.
-:::
+Under the GDPR you may ask what data I hold about you, ask me to correct or delete it, or object to its use. Contact me at the address above.

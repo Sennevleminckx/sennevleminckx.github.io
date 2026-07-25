@@ -1,6 +1,6 @@
 ---
 pagetitle: "Senne Vleminckx"
-description: "Nurse and quantitative methodologist at the University of Antwerp. Nursing workforce, team composition, and health-data methods."
+description: "Nurse and quantitative researcher at the University of Antwerp. Nursing workforce, team composition, and health-data methods."
 page-layout: article
 toc: false
 ---
@@ -19,22 +19,22 @@ Photo — TODO(senne): add `assets/img/senne.jpg`
 # Senne Vleminckx
 
 ::: {.role}
-Nurse and quantitative methodologist. PhD researcher at the University of Antwerp; postdoctoral researcher in the Faculty of Medicine and Health Sciences from October 2026.
+Nurse and quantitative researcher. Postdoctoral researcher, Faculty of Medicine and Health Sciences, University of Antwerp.
 :::
 
-I study how nursing teams are put together and how they work — their composition, stability, and collaboration — mostly from hospital rostering, administrative, and survey data. My PhD developed a framework for describing team composition and a measure of collaboration built from scheduling data.
+I research nursing workforce and team composition — how teams are put together, how they collaborate, and how that shows up in patient and staff outcomes — mostly from hospital rostering, administrative and survey data. My current work turns to infectious-disease modelling and health economics.
 
-Before research I worked as a nurse in emergency and intensive care. My postdoctoral work moves towards infectious-disease modelling and health economics.
+Before research I worked as a nurse in emergency and intensive care.
 ::::
 
 :::::
 
 ::: {.links}
-- <span class="todo">TODO(senne): University profile URL</span>
+- [University profile](https://www.uantwerpen.be/en/staff/senne-vleminckx/)
 - [LinkedIn](https://www.linkedin.com/in/senne-vleminckx/)
 - [ORCID](https://orcid.org/0000-0001-9647-4785)
 - [GitHub](https://github.com/Sennevleminckx)
-- [Email](mailto:senne&#46;vleminckx&#64;uantwerpen&#46;be)
+- [Email](mailto:senne&#46;vleminckx&#64;icloud&#46;com)
 :::
 
-Alongside research, I take on a limited amount of statistical and methodological consultancy. [Consultancy →](consultancy.qmd)
+Alongside research, I take on a limited amount of data-analysis consultancy. [Consultancy →](consultancy.qmd)

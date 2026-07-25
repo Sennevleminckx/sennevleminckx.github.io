@@ -1,18 +1,18 @@
 ---
 title: "Curriculum vitae"
-description: "Position, education, teaching, supervision, conferences, projects, peer review and skills."
+page-layout: article
 toc: true
 toc-title: "Sections"
 ---
 
-Registered nurse turned quantitative methodologist. Clinical background in emergency and intensive care; research on nursing workforce, team composition and collaboration, using statistical modelling and data science. Works in Python, R and SQL.
+[Nurse and quantitative researcher — nursing workforce, team composition, and health-data methods.]{.cv-lead}
 
 [Download CV (PDF)](assets/cv.pdf){.pill}
 
 ## Experience
 
 :::: {.cv-entry}
-[Oct 2026 –]{.cv-when}
+[2026 –]{.cv-when}
 
 ::: {.cv-what}
 [Postdoctoral researcher]{.cv-role}, [University of Antwerp — Faculty of Medicine and Health Sciences]{.cv-where}
@@ -22,15 +22,12 @@ Infectious-disease modelling and health economics.
 ::::
 
 :::: {.cv-entry}
-[Oct 2022 – present]{.cv-when}
+[Oct 2022 – Sep 2026]{.cv-when}
 
 ::: {.cv-what}
 [PhD fellow]{.cv-role}, [University of Antwerp]{.cv-where}
 
-Balanced Care Teams: a systems approach to nursing workforce design.
-
-- A framework for describing team composition, adding heterogeneity, stability and structured collaboration.
-- A metric for the stability of interaction patterns from an individual's perspective, within the meta-team and sub-teams.
+Balanced Care Teams: a systems approach to nursing workforce design. Built a framework for team composition (heterogeneity, stability, structured collaboration) and a measure of collaboration from scheduling data.
 :::
 ::::
 
@@ -40,11 +37,7 @@ Balanced Care Teams: a systems approach to nursing workforce design.
 ::: {.cv-what}
 [Junior researcher (project lead)]{.cv-role}, [University of Antwerp]{.cv-where}
 
-Balanced Nursing Teams (BNuT) project — integrating hospital data with a 360-degree survey and presenting the results as interactive dashboards.
-
-- Designed and validated a 360-degree nursing team survey.
-- Co-developed the back-end data architecture; managed multi-hospital data integration and data-protection and ethics compliance.
-- Led procurement and contract negotiations with an external software firm.
+Balanced Nursing Teams (BNuT) project — integrating hospital data with a 360-degree survey into interactive dashboards. Designed the survey, co-developed the data architecture, and led procurement with an external software firm.
 :::
 ::::
 
@@ -64,7 +57,7 @@ Urban emergency department (>110 patients/day); COVID-19 preparedness and prehos
 ::: {.cv-what}
 [Intensive care nurse]{.cv-role}, [University Hospital Leuven]{.cv-where}
 
-Tertiary medical ICU, alongside the Master in Nursing and Midwifery. Master's thesis: an improvement project that reduced catheter-related infections by 80%.
+Tertiary medical ICU, alongside the Master in Nursing and Midwifery. Master's thesis reduced catheter-related infections by 80%.
 :::
 ::::
 
@@ -73,14 +66,10 @@ Tertiary medical ICU, alongside the Master in Nursing and Midwifery. Master's th
 
 ::: {.cv-what}
 [Emergency nurse]{.cv-role}, [University Hospital Leuven]{.cv-where}
-
-Tertiary emergency department.
 :::
 ::::
 
 ## Education
-
-[Formal education]{.cv-subgroup}
 
 :::: {.cv-entry}
 [2026]{.cv-when}
@@ -117,7 +106,7 @@ Bachelor in Nursing, **Hogeschool UCLL**
 [Research stay]{.cv-subgroup}
 
 :::: {.cv-entry}
-[2025 – present]{.cv-when}
+[2025]{.cv-when}
 
 ::: {.cv-what}
 Visiting researcher, **Erasmus MC — DataHub, Rotterdam**. Machine learning for ICU patient-acuity assessment and resource allocation.
@@ -130,7 +119,7 @@ Visiting researcher, **Erasmus MC — DataHub, Rotterdam**. Machine learning for
 [2026]{.cv-when}
 
 ::: {.cv-what}
-ESSA Summer School: Introduction to Agent-Based Modelling, **The James Hutton Institute** (planned)
+ESSA and BEHAVE summer schools on agent-based modelling
 :::
 ::::
 
@@ -138,15 +127,7 @@ ESSA Summer School: Introduction to Agent-Based Modelling, **The James Hutton In
 [2025]{.cv-when}
 
 ::: {.cv-what}
-Summer School on Bayesian Optimization, **UHasselt** · Summer School on Epidemiological Modelling & Health Economics, **University of Antwerp**
-:::
-::::
-
-:::: {.cv-entry}
-[2024]{.cv-when}
-
-::: {.cv-what}
-Introduction to AI and Machine Learning for Biomedical Research, **VAIA**
+Summer schools on Bayesian Optimization (**UHasselt**) and Epidemiological Modelling & Health Economics (**University of Antwerp**)
 :::
 ::::
 
@@ -154,15 +135,7 @@ Introduction to AI and Machine Learning for Biomedical Research, **VAIA**
 [2021 – 2024]{.cv-when}
 
 ::: {.cv-what}
-Python & Data Science: Inference Specialist, **Codecademy** (self-study)
-:::
-::::
-
-:::: {.cv-entry}
-[2021 – 2023]{.cv-when}
-
-::: {.cv-what}
-Micro Organizational Behaviour, **KU Leuven** (2023) · Leadership in Nursing Excellence and High-Performance Computing, **University of Antwerp** (2022) · Deep Dive into Business, **Antwerp Management School** (2021)
+AI & Machine Learning for Biomedical Research (**VAIA**, 2024); Python & Data Science (**Codecademy**); Micro Organizational Behaviour (**KU Leuven**); High-Performance Computing (**University of Antwerp**)
 :::
 ::::
 
@@ -180,7 +153,7 @@ Micro Organizational Behaviour, **KU Leuven** (2023) · Leadership in Nursing Ex
 [2024 – present]{.cv-when}
 
 ::: {.cv-what}
-**Artificial Intelligence in Healthcare** — introductory lecture, Master's in Academic Development, University of Antwerp
+**Artificial Intelligence in Healthcare** — introductory lecture, University of Antwerp
 :::
 ::::
 
@@ -188,143 +161,76 @@ Micro Organizational Behaviour, **KU Leuven** (2023) · Leadership in Nursing Ex
 [2024 – present]{.cv-when}
 
 ::: {.cv-what}
-**Statistical consultant** — Centre for Research and Innovation in Care (CRIC)
+**[Statistical consultant](consultancy.qmd)** — study design, analysis and review for research teams
 :::
 ::::
 
 ## Supervision
 
-[Master in Nursing and Midwifery, University of Antwerp]{.cv-subgroup}
-
-:::: {.cv-entry}
-[2022 – 2023]{.cv-when}
-
-::: {.cv-what}
-Michielsen, A. — *De ligduur van patiënten op spoedgevallen: een verkennende studie naar voorspellende factoren*
-:::
-::::
-
-:::: {.cv-entry}
-[2023 – 2024]{.cv-when}
-
-::: {.cv-what}
-Neyens, L. — *Decision support tijdens triage op spoedgevallen: ontwikkeling van een machine-learningmodel voor patiëntenallocatie en interventies*
-:::
-::::
-
-:::: {.cv-entry}
-[2024 – 2025]{.cv-when}
-
-::: {.cv-what}
-Van Oorschot, C. — *Factoren geassocieerd met absenteïsme bij zorgpersoneel in een Belgisch ziekenhuisnetwerk: een cross-sectioneel onderzoek*
-:::
-::::
-
-:::: {.cv-entry}
-[2024 – 2025]{.cv-when}
-
-::: {.cv-what}
-De Schrijver, C. — *Ontwikkeling van een meetinstrument voor datagedreven besluitvorming bij (adjunct-)leidinggevenden — een gemodificeerde Delphi-studie met pilootonderzoek*
-:::
-::::
-
-:::: {.cv-entry}
-[2025 – 2026]{.cv-when}
-
-::: {.cv-what}
-Jansen, J. — *Ontwikkeling en validatie van een kennistest voor competenties in basisprincipes van artificiële intelligentie bij verpleegkundigen en studenten verpleegkunde*
-:::
-::::
-
-:::: {.cv-entry}
-[2025 – 2026]{.cv-when}
-
-::: {.cv-what}
-Dijckmans, E. — *Ontwikkeling en validatie van een kennistest voor competenties omtrent artificiële intelligentie in de gezondheidszorg bij artsen en studenten geneeskunde*
-:::
-::::
-
-:::: {.cv-entry}
-[2025 – 2026]{.cv-when}
-
-::: {.cv-what}
-Installé, S. — *Datagedreven leiderschap in Vlaamse ziekenhuizen: zijn leidinggevenden mee?*
-:::
-::::
-
-:::: {.cv-entry}
-[2025 – 2026]{.cv-when}
-
-::: {.cv-what}
-Arntz, A. — *The effect of lighting conditions on video-assessed clinical deterioration compared to live observations using NIPDS: a pilot study*
-:::
-::::
-
-[Other supervision]{.cv-subgroup}
-
-:::: {.cv-entry}
-[2024 – 2025]{.cv-when}
-
-::: {.cv-what}
-Goos, M. & Vanuffelen, Z. — *Opvolging pre-implementatieproces van BNuT binnen AZ Klina* (Master in Organisation and Management)
-:::
-::::
-
-:::: {.cv-entry}
-[2021 – 2022]{.cv-when}
-
-::: {.cv-what}
-Van Reusel, C. — *Software spin-off: opstelling marketingplan en business model canvas* (Master in Applied Economic Sciences)
-:::
-::::
-
 :::: {.cv-entry}
 [2025 – present]{.cv-when}
 
 ::: {.cv-what}
-Mentor — E. Claes: *Optimalisatie van spoedgevallenzorg via datagedreven beslissingen* (PhD)
+[PhD mentor]{.cv-role} — E. Claes: *Optimalisatie van spoedgevallenzorg via datagedreven beslissingen*
 :::
 ::::
+
+<details class="cv-more">
+<summary>Show all Master's theses supervised (10)</summary>
+
+[Master in Nursing and Midwifery, University of Antwerp]{.cv-subgroup}
+
+:::: {.cv-entry}
+[2025 – 2026]{.cv-when}
+
+::: {.cv-what}
+Jansen, J. — *kennistest AI-basisprincipes bij verpleegkundigen en studenten verpleegkunde* · Dijckmans, E. — *kennistest AI in de gezondheidszorg bij artsen en studenten geneeskunde* · Installé, S. — *datagedreven leiderschap in Vlaamse ziekenhuizen* · Arntz, A. — *lighting conditions and video-assessed clinical deterioration (NIPDS)*
+:::
+::::
+
+:::: {.cv-entry}
+[2024 – 2025]{.cv-when}
+
+::: {.cv-what}
+Van Oorschot, C. — *absenteïsme bij zorgpersoneel in een ziekenhuisnetwerk* · De Schrijver, C. — *meetinstrument voor datagedreven besluitvorming bij leidinggevenden (Delphi)*
+:::
+::::
+
+:::: {.cv-entry}
+[2022 – 2024]{.cv-when}
+
+::: {.cv-what}
+Neyens, L. — *machine-learningmodel voor triage en patiëntenallocatie op spoed* · Michielsen, A. — *voorspellende factoren voor ligduur op spoedgevallen*
+:::
+::::
+
+[Other programmes]{.cv-subgroup}
+
+:::: {.cv-entry}
+[2024 – 2025]{.cv-when}
+
+::: {.cv-what}
+Goos, M. & Vanuffelen, Z. — *pre-implementatie van BNuT binnen AZ Klina* (Organisation and Management) · Van Reusel, C. — *software spin-off business model* (Applied Economic Sciences)
+:::
+::::
+
+</details>
 
 ## Conferences
 
 :::: {.cv-entry}
+[2025]{.cv-when}
+
+::: {.cv-what}
+Invited keynote (BVVS) on AI in nursing research; invited talk (CRIC) on a retrieval-augmented generation system; poster (ICN, Helsinki) on multiple job holding
+:::
+::::
+
+:::: {.cv-entry}
 [2024]{.cv-when}
 
 ::: {.cv-what}
-Factors influencing the formation of balanced care teams — Care4 Congress, Antwerp *(poster)*
-:::
-::::
-
-:::: {.cv-entry}
-[2024]{.cv-when}
-
-::: {.cv-what}
-A novel metric to quantify collaboration intensity in multi-team systems — CRIC Symposium, Antwerp *(invited speaker)* and EIASM Congress, Barcelona *(oral)*
-:::
-::::
-
-:::: {.cv-entry}
-[2025]{.cv-when}
-
-::: {.cv-what}
-Influencing factors for multiple job holding in nursing — ICN Congress, Helsinki *(poster)*
-:::
-::::
-
-:::: {.cv-entry}
-[2025]{.cv-when}
-
-::: {.cv-what}
-A retrieval-augmented generation system for handling student questions — CRIC Symposium, Antwerp *(invited speaker)*
-:::
-::::
-
-:::: {.cv-entry}
-[2025]{.cv-when}
-
-::: {.cv-what}
-Artificial intelligence applications in nursing research — BVVS online symposium *(invited keynote)*
+Invited and oral talks (CRIC; EIASM, Barcelona) on a collaboration-intensity metric; poster (Care4) on balanced care teams
 :::
 ::::
 
@@ -334,38 +240,22 @@ Artificial intelligence applications in nursing research — BVVS online symposi
 [BNuT]{.cv-when}
 
 ::: {.cv-what}
-**Balanced Nursing Teams platform** — [app.bnut.eu](http://app.bnut.eu). A web application centralising and visualising nursing data across institutions, combining survey and administrative data into interactive dashboards.
+**Balanced Nursing Teams platform** — [app.bnut.eu](http://app.bnut.eu). Centralises and visualises nursing data across institutions, combining survey and administrative data into interactive dashboards.
 :::
 ::::
 
 :::: {.cv-entry}
-[RAG system]{.cv-when}
+[Other]{.cv-when}
 
 ::: {.cv-what}
-**Student-query assistant** — a retrieval-augmented generation system answering student questions from internal university documents (regulations, procedures).
-:::
-::::
-
-:::: {.cv-entry}
-[Integrity]{.cv-when}
-
-::: {.cv-what}
-**Citation verification tool** — validates citations in student papers to support grading and reference accuracy.
-:::
-::::
-
-:::: {.cv-entry}
-[ABM]{.cv-when}
-
-::: {.cv-what}
-**Agent-based model dashboard** — interactive visualisation of model outputs and policy-scenario comparisons for healthcare workforce modelling.
+A retrieval-augmented **student-query assistant**; a **citation verification tool** for grading; an **agent-based model dashboard** for workforce policy scenarios.
 :::
 ::::
 
 ## Peer review & service
 
 **Journals (2024–2026)**
-: International Journal of Nursing Studies Advances, BMC Nursing, International Nursing Review, Journal of Advanced Nursing, Nursing Outlook, Journal of Happiness Studies, BMC Medical Education. Verified reviews on [ORCID / Web of Science](https://orcid.org/0000-0001-9647-4785).
+: International Journal of Nursing Studies Advances, BMC Nursing, International Nursing Review, Journal of Advanced Nursing, Nursing Outlook, Journal of Happiness Studies, BMC Medical Education. Verified on [ORCID / Web of Science](https://orcid.org/0000-0001-9647-4785).
 
 **Policy (2025)**
 : External expert, "Pilot study on a new payment system for home nursing" (Van den Heede et al.).
@@ -375,14 +265,8 @@ Artificial intelligence applications in nursing research — BVVS online symposi
 **Statistical modelling**
 : Factor analysis, regression, Bayesian and regularised regression, survival analysis, multilevel modelling, uncertainty quantification.
 
-**Data science**
-: Data analysis and engineering, random forests, agent-based simulation.
-
-**Programming**
-: Python (pandas, NumPy, scikit-learn, PyMC/NumPyro, BoTorch, Trieste, Mesa), PostgreSQL, R (basic), SPSS, Git/GitHub, Streamlit.
-
-**Research tools**
-: Qualtrics (survey design), RevMan (systematic reviews), high-performance computing (VSC cluster).
+**Programming & data**
+: Python (pandas, NumPy, scikit-learn, PyMC/NumPyro, BoTorch, Mesa), PostgreSQL, R, SPSS, Git; data engineering, agent-based simulation, high-performance computing.
 
 **Clinical**
 : Nursing workforce analytics, team-composition metrics, emergency and ICU experience.
