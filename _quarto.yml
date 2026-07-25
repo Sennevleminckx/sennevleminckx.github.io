@@ -21,14 +21,12 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Services"
-        href: services.qmd
-      - text: "Work"
-        href: work.qmd
       - text: "CV"
         href: cv.qmd
       - text: "Publications"
         href: publications.qmd
+      - text: "Consultancy"
+        href: consultancy.qmd
     right:
       - text: "Contact"
         href: contact.qmd
@@ -54,8 +52,8 @@ format:
     smooth-scroll: true
     include-in-header:
       - text: |
+          <link rel="preload" href="/assets/fonts/plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
           <link rel="preload" href="/assets/fonts/plex-sans-600.woff2" as="font" type="font/woff2" crossorigin>
-          <link rel="preload" href="/assets/fonts/source-serif-400.woff2" as="font" type="font/woff2" crossorigin>
     include-before-body:
       - text: |
           <a href="#quarto-content" class="skip-link">Skip to content</a>

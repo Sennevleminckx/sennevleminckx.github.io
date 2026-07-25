@@ -1,20 +1,18 @@
 ---
 title: "Contact"
-description: "Get in touch about a project, a review, or a training session."
+description: "Get in touch about research, a review, or a piece of consultancy."
 toc: false
 ---
 
-[Get in touch]{.eyebrow}
-
-The best first message tells me three things: the **problem** you are trying to solve, the **data** you already have (or plan to collect), and your **timeline**. That is enough for me to say whether I can help and how. I reply within a few working days.
+For consultancy, a useful first message says three things: the **problem**, the **data** you have (or plan to collect), and your **timeline**. I reply within a few working days.
 
 ::: {.contact-lines}
-- [Email]{.k} [<a class="email-primary" href="mailto:c&#111;ntact&#64;sennevleminckx&#46;be">c&#111;ntact&#64;sennevleminckx&#46;be</a>]{.v}
-- [LinkedIn]{.k} [<span class="todo">TODO(senne): LinkedIn profile URL</span>]{.v}
-- [ORCID]{.k} [<span class="todo">TODO(senne): ORCID iD + link</span>]{.v}
-- [GitHub]{.k} [[github.com/Sennevleminckx](https://github.com/Sennevleminckx)]{.v}
+- [Email]{.k} [<a class="email-primary" href="mailto:senne&#46;vleminckx&#64;uantwerpen&#46;be">senne&#46;vleminckx&#64;uantwerpen&#46;be</a>]{.v}
+- [LinkedIn]{.k} [linkedin.com/in/senne-vleminckx](https://www.linkedin.com/in/senne-vleminckx/)
+- [ORCID]{.k} [0000-0001-9647-4785](https://orcid.org/0000-0001-9647-4785)
+- [GitHub]{.k} [github.com/Sennevleminckx](https://github.com/Sennevleminckx)
 :::
 
-<!-- TODO(senne): confirm the contact email address above (placeholder). -->
+<!-- TODO(senne): decide whether to use a separate consultancy email instead of the university address. -->
 
 For company and privacy details, see [Legal & privacy](legal.qmd).

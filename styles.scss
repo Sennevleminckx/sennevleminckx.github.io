@@ -1,55 +1,44 @@
 /*-- scss:defaults --*/
 
-// ── Palette ───────────────────────────────────────────────────────────────
-$ink:    #182029;   // text — deep cool slate, not pure black
-$paper:  #f1f2f0;   // background — faintly cool off-white, deliberately not cream
-$slate:  #5a6b72;   // muted text, captions (AA on paper)
-$rule:   #d5d8d6;   // hairlines
-$signal: #b4451f;   // accent — restrained brick, spent in one place
-$signal-ink: #8f3316; // darker accent for small text / hover on light
+// ── Palette (quiet, near-monochrome) ────────────────────────────────────────
+$paper:  #ffffff;
+$paper-2:#fbfbfa;   // faint fill for subtle blocks
+$ink:    #1b1b1b;
+$muted:  #6b7280;   // captions, dates (AA on paper)
+$rule:   #e6e6e4;   // hairlines
+$accent: #2f5c8f;   // links only — restrained, AA on white
 
-// Rota (roster) shift shades — the signature motif
-$shift-off: #e4e6e4;
-$shift-day: #d2d6d4;
-$shift-eve: #bcc3c1;
-$shift-nite: #9aa4a4;
+// ── Fonts ────────────────────────────────────────────────────────────────────
+$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$font-family-base:       $font-family-sans-serif;
+$headings-font-family:   $font-family-sans-serif;
 
-// ── Bootstrap variable overrides ──────────────────────────────────────────
+$font-size-root: 17px;
+$line-height-base: 1.6;
+$headings-font-weight: 600;
+$headings-line-height: 1.25;
+
+// ── Bootstrap overrides ──────────────────────────────────────────────────────
 $body-bg:    $paper;
 $body-color: $ink;
 
-$font-family-serif:      "Source Serif 4", Georgia, "Times New Roman", serif;
-$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-$font-family-monospace:  "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
-
-// Body reads in the serif; headings + chrome in the sans.
-$font-family-base:     $font-family-serif;
-$headings-font-family: $font-family-sans-serif;
-
-$font-size-root: 18px;
-$line-height-base: 1.6;
-$headings-font-weight: 600;
-$headings-line-height: 1.15;
-
-$link-color:            $ink;
-$link-decoration:       underline;
-$link-hover-color:      $signal-ink;
+$link-color:            $accent;
+$link-decoration:       none;
+$link-hover-color:      darken($accent, 12%);
 $link-hover-decoration: underline;
 
 $border-color: $rule;
 
-// Navbar
 $navbar-bg: $paper;
-$navbar-light-color:        $slate;
+$navbar-light-color:        $muted;
 $navbar-light-hover-color:  $ink;
 $navbar-light-active-color: $ink;
 
-// Footer
 $footer-bg: $paper;
 
 /*-- scss:rules --*/
 
-// ── Self-hosted fonts ──────────────────────────────────────────────────────
+// ── Self-hosted fonts (Plex Sans only) ───────────────────────────────────────
 @font-face {
   font-family: "IBM Plex Sans"; font-style: normal; font-weight: 400;
   font-display: swap; src: url("/assets/fonts/plex-sans-400.woff2") format("woff2");
@@ -62,303 +51,116 @@ $footer-bg: $paper;
   font-family: "IBM Plex Sans"; font-style: normal; font-weight: 600;
   font-display: swap; src: url("/assets/fonts/plex-sans-600.woff2") format("woff2");
 }
-@font-face {
-  font-family: "IBM Plex Mono"; font-style: normal; font-weight: 400;
-  font-display: swap; src: url("/assets/fonts/plex-mono-400.woff2") format("woff2");
-}
-@font-face {
-  font-family: "IBM Plex Mono"; font-style: normal; font-weight: 500;
-  font-display: swap; src: url("/assets/fonts/plex-mono-500.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Source Serif 4"; font-style: normal; font-weight: 400;
-  font-display: swap; src: url("/assets/fonts/source-serif-400.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Source Serif 4"; font-style: italic; font-weight: 400;
-  font-display: swap; src: url("/assets/fonts/source-serif-400-italic.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Source Serif 4"; font-style: normal; font-weight: 600;
-  font-display: swap; src: url("/assets/fonts/source-serif-600.woff2") format("woff2");
-}
 
-// ── Base ────────────────────────────────────────────────────────────────────
-body {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
+// ── Base ─────────────────────────────────────────────────────────────────────
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 
-// Type scale (major third-ish, restrained)
-h1, .h1 { font-size: 2.30rem; letter-spacing: -0.015em; font-weight: 600; }
-h2, .h2 { font-size: 1.55rem; letter-spacing: -0.01em;  font-weight: 600; margin-top: 2.4rem; }
-h3, .h3 { font-size: 1.18rem; font-weight: 600; margin-top: 1.8rem; }
-h4, .h4 { font-size: 1.0rem;  font-weight: 500; }
+h1 { font-size: 1.95rem; letter-spacing: -0.01em; margin-bottom: 0.4rem; }
+h2 { font-size: 1.3rem;  margin-top: 2.4rem; margin-bottom: 0.6rem; }
+h3 { font-size: 1.05rem; margin-top: 1.4rem; margin-bottom: 0.3rem; }
 
 p, li { max-width: 68ch; }
-p { margin-bottom: 1.1rem; }
-
+p { margin-bottom: 1rem; }
 strong { font-weight: 600; }
 
-// Links: quiet underline, accent on interaction
-a {
-  text-underline-offset: 0.18em;
-  text-decoration-thickness: from-font;
-  transition: color 0.12s ease;
-}
+a { transition: color 0.12s ease; }
 
-// ── Accessibility furniture ────────────────────────────────────────────────
+.text-muted, .muted { color: $muted; }
+
+// ── Accessibility furniture ──────────────────────────────────────────────────
 .skip-link {
-  position: absolute;
-  left: -9999px;
-  top: 0;
-  z-index: 1000;
-  background: $ink;
-  color: $paper;
-  padding: 0.6rem 1rem;
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  text-decoration: none;
+  position: absolute; left: -9999px; top: 0; z-index: 1000;
+  background: $ink; color: $paper; padding: 0.55rem 0.9rem;
+  font-size: 0.85rem; text-decoration: none;
 }
 .skip-link:focus { left: 0.5rem; top: 0.5rem; }
 
-:focus-visible {
-  outline: 3px solid $signal;
-  outline-offset: 2px;
+:focus-visible { outline: 3px solid $accent; outline-offset: 2px; }
+
+// ── Navbar (light, quiet) ─────────────────────────────────────────────────────
+.navbar { border-bottom: 1px solid $rule; padding-top: 0.7rem; padding-bottom: 0.7rem; }
+.navbar .navbar-brand { font-weight: 600; font-size: 1rem; letter-spacing: -0.01em; }
+.navbar .nav-link { font-size: 0.9rem; }
+.navbar .nav-link.active { color: $ink; font-weight: 500; }
+
+// ── Home intro (portrait + text) ─────────────────────────────────────────────
+.intro { display: flex; flex-wrap: wrap; gap: 1.6rem; align-items: flex-start; margin: 0.5rem 0 1.4rem; }
+.intro__text { flex: 1 1 320px; min-width: 0; }
+.intro__text h1 { margin-top: 0; }
+.role { color: $muted; font-size: 1.02rem; margin: 0 0 1rem; }
+
+.portrait { flex: 0 0 auto; width: 168px; }
+.portrait img { width: 168px; height: 210px; object-fit: cover; border-radius: 4px; display: block; }
+.portrait--placeholder {
+  width: 168px; height: 210px; border: 1px dashed #c7c7c2; border-radius: 4px;
+  background: $paper-2; color: $muted; display: flex; align-items: center;
+  justify-content: center; text-align: center; font-size: 0.78rem; padding: 0.5rem;
+}
+@media (max-width: 460px) {
+  .portrait, .portrait img, .portrait--placeholder { width: 128px; }
+  .portrait img, .portrait--placeholder { height: 160px; }
 }
 
-// ── Small-caps mono label (the "data voice") ────────────────────────────────
-.eyebrow,
-.label-mono {
-  font-family: $font-family-monospace;
-  font-weight: 500;
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: $slate;
-  display: block;
-  margin-bottom: 0.9rem;
-}
+// ── External-link row ─────────────────────────────────────────────────────────
+.links { list-style: none; padding: 0; margin: 1.2rem 0; display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; }
+.links li { max-width: none; }
+.links a { font-size: 0.92rem; }
+.links .sep { color: $rule; }
 
-// ── Navbar ──────────────────────────────────────────────────────────────────
-.navbar {
-  border-bottom: 1px solid $rule;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+// ── A subtle bordered link (used sparingly, e.g. download CV) ──────────────────
+.pill {
+  display: inline-block; text-decoration: none; color: $ink;
+  border: 1px solid $rule; border-radius: 4px; padding: 0.45rem 0.9rem;
+  font-size: 0.9rem; background: $paper;
 }
-.navbar .navbar-brand {
-  font-family: $font-family-monospace;
-  font-weight: 500;
-  font-size: 0.95rem;
-  letter-spacing: 0.02em;
-}
-.navbar .nav-link {
-  font-family: $font-family-monospace;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-.navbar .nav-link.active { text-decoration: underline; text-underline-offset: 0.3em; }
+.pill:hover, .pill:focus-visible { border-color: $accent; color: $accent; text-decoration: none; }
 
-// ── The rota band — signature element ───────────────────────────────────────
-// An abstract nurse roster: cells of shifting tone, one accent cell = the
-// signal in the noise. Pure CSS, decorative, ~0 cost.
-.rota {
-  --cell: 22px;
-  position: relative;
-  height: var(--cell);
-  margin: 2.2rem 0;
-  background-color: $shift-off;
-  background-image:
-    // tonal rhythm across 4 cells (off / day / eve / night)
-    repeating-linear-gradient(90deg,
-      $shift-day   0,               var(--cell),
-      $shift-eve   var(--cell),     calc(var(--cell) * 2),
-      $shift-nite  calc(var(--cell) * 2), calc(var(--cell) * 3),
-      $shift-off   calc(var(--cell) * 3), calc(var(--cell) * 4)),
-    // cell dividers
-    repeating-linear-gradient(90deg,
-      $paper 0, 1px,
-      transparent 1px, var(--cell));
-  border-top: 1px solid $rule;
-  border-bottom: 1px solid $rule;
-}
-// the one accent cell
-.rota::after {
-  content: "";
-  position: absolute;
-  top: 0; bottom: 0;
-  left: calc(var(--cell) * 6 + 1px);
-  width: calc(var(--cell) - 1px);
-  background: $signal;
-}
-.rota--lg { --cell: 30px; }
+// ── Simple offer rows (Consultancy) ──────────────────────────────────────────
+.offers { border-top: 1px solid $rule; margin-top: 1.2rem; }
+.offer { border-bottom: 1px solid $rule; padding: 1rem 0; }
+.offer h3 { margin-top: 0; }
+.offer p { margin-bottom: 0.3rem; }
+.offer .who { color: $muted; }
 
-// ── Hero (home) ─────────────────────────────────────────────────────────────
-.hero {
-  padding-top: 1rem;
-}
-.hero h1 {
-  font-size: 2.7rem;
-  line-height: 1.1;
-  max-width: 20ch;
-}
-.lead-statement {
-  font-size: 1.28rem;
-  line-height: 1.45;
-  max-width: 60ch;
-  margin: 1.4rem 0 1.6rem;
-}
-.credibility {
-  color: $slate;
-  max-width: 62ch;
-}
-
-// ── Buttons / calls to action ───────────────────────────────────────────────
-.cta {
-  display: inline-block;
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: $paper;
-  background: $ink;
-  padding: 0.7rem 1.2rem;
-  border: 1px solid $ink;
-  transition: background 0.14s ease, color 0.14s ease;
-}
-.cta:hover, .cta:focus-visible {
-  background: $signal;
-  border-color: $signal;
-  color: $paper;
-  text-decoration: none;
-}
-.cta--ghost {
-  color: $ink;
-  background: transparent;
-}
-.cta--ghost:hover, .cta--ghost:focus-visible { color: $paper; }
-
-// ── Service / offer list (rule-separated rows, not cards) ────────────────────
-.offers { border-top: 1px solid $rule; margin-top: 1.5rem; }
-.offer {
-  border-bottom: 1px solid $rule;
-  padding: 1.35rem 0;
-  display: grid;
-  grid-template-columns: 3ch 1fr;
-  gap: 0 1.2rem;
-}
-.offer__num {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  color: $slate;
-  padding-top: 0.35rem;
-}
-.offer__body { max-width: 64ch; }
-.offer h3 { margin-top: 0; font-size: 1.1rem; }
-.offer p  { margin-bottom: 0.4rem; color: $ink; }
-.offer .who { color: $slate; font-style: italic; }
-.offer a.more {
-  font-family: $font-family-monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-// ── Quarto listing (Work index) ─────────────────────────────────────────────
-.quarto-listing { margin-top: 1.5rem; }
-div.quarto-post {
-  border-top: 1px solid $rule;
-  padding: 1.4rem 0;
-}
-div.quarto-post:last-child { border-bottom: 1px solid $rule; }
-div.quarto-post .listing-title { font-family: $font-family-sans-serif; font-weight: 600; }
-div.quarto-post .listing-subtitle { color: $slate; font-style: italic; }
-.listing-category, .quarto-category {
-  font-family: $font-family-monospace !important;
-  font-size: 0.7rem !important;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  background: transparent !important;
-  border: 1px solid $rule !important;
-  border-radius: 0 !important;
-  color: $slate !important;
-}
-
-// ── CV ──────────────────────────────────────────────────────────────────────
+// ── CV ────────────────────────────────────────────────────────────────────────
 .cv-entry {
-  display: grid;
-  grid-template-columns: 8.5rem 1fr;
-  gap: 0.2rem 1.4rem;
-  padding: 0.7rem 0;
-  border-bottom: 1px solid $rule;
+  display: grid; grid-template-columns: 8.5rem 1fr; gap: 0.15rem 1.3rem;
+  padding: 0.65rem 0; border-bottom: 1px solid $rule;
 }
-.cv-entry .cv-when {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  color: $slate;
-  padding-top: 0.15rem;
-}
-.cv-entry .cv-what p { margin-bottom: 0.3rem; }
+.cv-entry .cv-when { color: $muted; font-size: 0.9rem; padding-top: 0.1rem; }
+.cv-entry .cv-what p { margin-bottom: 0.25rem; }
 .cv-entry .cv-what .cv-role { font-weight: 600; }
-.cv-entry .cv-what .cv-where { color: $slate; }
-.cv-download {
-  display: inline-block;
-  margin: 0.5rem 0 1.5rem;
-}
-@media (max-width: 520px) {
+.cv-entry .cv-what .cv-where { color: $muted; }
+.cv-subgroup { font-weight: 600; margin: 1rem 0 0.2rem; }
+@media (max-width: 560px) {
   .cv-entry { grid-template-columns: 1fr; gap: 0.1rem; }
-  .offer { grid-template-columns: 1fr; }
-  .offer__num { padding-top: 0; }
+  .cv-entry .cv-when { padding-top: 0; }
 }
 
-// ── Publications ────────────────────────────────────────────────────────────
-#refs, .csl-bib-body { margin-top: 0.5rem; }
-.csl-entry { margin-bottom: 0.9rem; max-width: 72ch; line-height: 1.5; }
+// ── Publications ──────────────────────────────────────────────────────────────
+.csl-bib-body { margin: 0.3rem 0 0.5rem; }
+.csl-entry { margin-bottom: 0.85rem; max-width: 74ch; line-height: 1.5; }
 
-// ── Contact ─────────────────────────────────────────────────────────────────
-.contact-lines { list-style: none; padding: 0; margin: 1.4rem 0; }
+// ── Contact ────────────────────────────────────────────────────────────────────
+.contact-lines { list-style: none; padding: 0; margin: 1.2rem 0; }
 .contact-lines li {
-  padding: 0.6rem 0;
-  border-bottom: 1px solid $rule;
-  display: flex;
-  gap: 1.2rem;
-  align-items: baseline;
+  padding: 0.55rem 0; border-bottom: 1px solid $rule;
+  display: flex; gap: 1rem; align-items: baseline; max-width: none;
 }
-.contact-lines .k {
-  font-family: $font-family-monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: $slate;
-  min-width: 8rem;
-}
-.email-primary { font-size: 1.15rem; }
+.contact-lines .k { color: $muted; font-size: 0.85rem; min-width: 7rem; }
+.email-primary { font-size: 1.1rem; }
 
-// ── TODO markers (visible so nothing ships half-written) ─────────────────────
-.todo, mark.todo {
-  background: #fbe6c8;
-  color: #7a4a10;
-  font-family: $font-family-monospace;
-  font-size: 0.85em;
-  padding: 0.05em 0.4em;
-  border: 1px dashed #c89257;
+// ── TODO markers (visible) ─────────────────────────────────────────────────────
+.todo {
+  background: #fbe9d0; color: #7a4a10; font-size: 0.85em;
+  padding: 0.05em 0.4em; border: 1px dashed #d3a56a; border-radius: 2px;
 }
 
-// ── Footer ──────────────────────────────────────────────────────────────────
-.nav-footer {
-  border-top: 1px solid $rule;
-  font-size: 0.82rem;
-  color: $slate;
-}
-.nav-footer a { color: $slate; }
+// ── Footer ──────────────────────────────────────────────────────────────────────
+.nav-footer { border-top: 1px solid $rule; font-size: 0.82rem; color: $muted; }
+.nav-footer a { color: $muted; }
 
-// ── Motion ──────────────────────────────────────────────────────────────────
+// ── Motion ────────────────────────────────────────────────────────────────────
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    transition: none !important;
-    animation: none !important;
-    scroll-behavior: auto !important;
-  }
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }

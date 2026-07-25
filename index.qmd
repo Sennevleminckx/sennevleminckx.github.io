@@ -1,81 +1,40 @@
 ---
-pagetitle: "Senne Vleminckx — statistics & methodology for health research"
-description: "I turn messy operational and survey data into defensible decisions, and rescue analyses that have gone sideways."
+pagetitle: "Senne Vleminckx"
+description: "Nurse and quantitative methodologist at the University of Antwerp. Nursing workforce, team composition, and health-data methods."
 page-layout: article
 toc: false
 ---
 
-::: {.hero}
-[Statistics & methodology consultancy]{.eyebrow}
+::::: {.intro}
 
-# Defensible answers from difficult health data.
-
-::: {.lead-statement}
-I turn messy operational and survey data into decisions you can defend — and I rescue analyses that have gone sideways before they reach a reviewer or a board.
+:::: {.portrait}
+::: {.portrait--placeholder}
+Photo — TODO(senne): add `assets/img/senne.jpg`
 :::
-
-::: {.credibility}
-PhD in nursing science (2026) and a registered nurse with emergency and intensive-care experience, now a quantitative methodologist. I publish peer-reviewed methods work and I have spent years inside the systems this data comes from, so the analysis answers the question you actually have.
-:::
-
-[Start a conversation](contact.qmd){.cta}
-:::
-
-::: {.rota .rota--lg role="img" aria-label="An abstract nurse roster: cells of shifting tone with one highlighted — structure and signal in scheduling data."}
-:::
-
-## Where I help
-
-::: {.offers}
-
-:::: {.offer}
-[01]{.offer__num}
-
-::: {.offer__body}
-### Study & survey design
-
-Getting the measurement and the sample right before data collection, so the analysis is possible later.
-
-[Study & survey design →](services.qmd#study-design){.more}
-:::
+<!-- When you have a headshot, replace the block above with:
+     ![Senne Vleminckx](assets/img/senne.jpg){.portrait-img} -->
 ::::
 
-:::: {.offer}
-[02]{.offer__num}
+:::: {.intro__text}
+# Senne Vleminckx
 
-::: {.offer__body}
-### Analysis & modelling
-
-Multilevel, survival, Bayesian and causal methods for observational and trial data.
-
-[Analysis & modelling →](services.qmd#analysis){.more}
+::: {.role}
+Nurse and quantitative methodologist. PhD researcher at the University of Antwerp; postdoctoral researcher in the Faculty of Medicine and Health Sciences from October 2026.
 :::
+
+I study how nursing teams are put together and how they work — their composition, stability, and collaboration — mostly from hospital rostering, administrative, and survey data. My PhD developed a framework for describing team composition and a measure of collaboration built from scheduling data.
+
+Before research I worked as a nurse in emergency and intensive care. My postdoctoral work moves towards infectious-disease modelling and health economics.
 ::::
 
-:::: {.offer}
-[03]{.offer__num}
+:::::
 
-::: {.offer__body}
-### Instrument validation & psychometrics
-
-Scale development, factor structure, reliability and measurement invariance.
-
-[Validation & psychometrics →](services.qmd#psychometrics){.more}
-:::
-::::
-
-:::: {.offer}
-[04]{.offer__num}
-
-::: {.offer__body}
-### Review & second opinion
-
-An independent read of an analysis before submission — or after a reviewer has torn it apart.
-
-[Review & second opinion →](services.qmd#review){.more}
-:::
-::::
-
+::: {.links}
+- <span class="todo">TODO(senne): University profile URL</span>
+- [LinkedIn](https://www.linkedin.com/in/senne-vleminckx/)
+- [ORCID](https://orcid.org/0000-0001-9647-4785)
+- [GitHub](https://github.com/Sennevleminckx)
+- [Email](mailto:senne&#46;vleminckx&#64;uantwerpen&#46;be)
 :::
 
-[See all services](services.qmd){.cta .cta--ghost}
+Alongside research, I take on a limited amount of statistical and methodological consultancy. [Consultancy →](consultancy.qmd)

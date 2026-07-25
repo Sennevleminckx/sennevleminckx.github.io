@@ -1,111 +1,56 @@
 ---
-title: "Services"
-description: "Concrete statistical and methodological services for health research, clinical operations and health-tech."
-toc: true
-toc-title: "On this page"
+title: "Consultancy"
+description: "Statistical and methodological consultancy for health research, clinical operations and health-tech."
+toc: false
 ---
 
-[What I offer]{.eyebrow}
+Alongside my research I take on a limited amount of consultancy — for research groups, hospitals, policy bodies and health-tech teams that need a statistician or methodologist for a specific piece of work.
 
-Six ways I work with research groups, hospitals, policy bodies and health-tech teams. Each entry says what it is, who it is for, and what you get back. If your problem sits between two of these, that is normal — say so and we will scope it.
+:::: {.offers}
 
-::: {.offers}
-
-:::: {.offer #study-design}
-[01]{.offer__num}
-
-::: {.offer__body}
+::: {.offer}
 ### Study & survey design
-
-Sample size, choice of measures, and the design decisions that determine whether the data can answer the question at all.
-
-[For: anyone about to collect data — a trial, a cohort, a survey, an audit.]{.who}
-
-What you get back: a design that is analysable later and avoids the errors that only surface once collection is finished.
+Sample size, choice of measures, and the design decisions that determine whether the data can answer the question.
+[For teams about to collect data — a trial, cohort, survey or audit.]{.who}
 :::
-::::
 
-:::: {.offer #psychometrics}
-[02]{.offer__num}
-
-::: {.offer__body}
+::: {.offer}
 ### Instrument validation & psychometrics
-
-Scale development and evaluation: factor structure, reliability, and measurement invariance across groups or time.
-
-[For: teams building or adopting a questionnaire, index or rating scale.]{.who}
-
-What you get back: evidence that your instrument measures what you claim, and holds up across the groups you compare.
+Factor structure, reliability, and measurement invariance for questionnaires, indices and rating scales.
+[For teams building or adopting an instrument.]{.who}
 :::
-::::
 
-:::: {.offer #analysis}
-[03]{.offer__num}
-
-::: {.offer__body}
+::: {.offer}
 ### Statistical analysis & modelling
-
-Multilevel, survival and Bayesian modelling, and causal inference for observational data.
-
-[For: researchers and organisations with data in hand and a decision to make.]{.who}
-
-What you get back: a defensible analysis, reproducible code, and a plain account of what it does and does not support.
+Multilevel, survival and Bayesian models, and causal inference for observational data.
+[For groups with data in hand and a decision to make.]{.who}
 :::
-::::
 
-:::: {.offer #simulation}
-[04]{.offer__num}
-
-::: {.offer__body}
+::: {.offer}
 ### Simulation & health economics
-
 Patient-flow and capacity modelling, agent-based simulation, and cost-effectiveness analysis.
-
-[For: managers and policy bodies weighing a change before committing to it.]{.who}
-
-What you get back: a model of the trade-off, with the uncertainty made explicit rather than hidden.
+[For managers and policy bodies weighing a change.]{.who}
 :::
-::::
 
-:::: {.offer #review}
-[05]{.offer__num}
-
-::: {.offer__body}
+::: {.offer}
 ### Statistical review & second opinion
-
-An independent read of an analysis — before submission, or after a reviewer has taken it apart.
-
-[For: authors, editors, and teams who need a check they can trust.]{.who}
-
-What you get back: a clear judgement on what is sound, what is not, and what to fix first.
+An independent read of an analysis — before submission, or after a reviewer's report.
+[For authors, editors and teams who need a check.]{.who}
 :::
-::::
 
-:::: {.offer #training}
-[06]{.offer__num}
-
-::: {.offer__body}
+::: {.offer}
 ### Training
-
-Research methods and applied statistics taught to clinical and research teams, pitched at the room.
-
-[For: departments who want to raise the floor, not just outsource the analysis.]{.who}
-
-What you get back: a session or short series built around your own data and questions.
+Research methods and applied statistics for clinical and research teams.
+[For departments who want to build the skill in-house.]{.who}
 :::
+
 ::::
-
-:::
 
 ## How it works
 
-1. **Initial call.** A short, no-obligation conversation to understand the problem and whether I am the right person for it.
-2. **Scoped proposal.** A written scope: the question, the approach, the deliverable, and the timeline.
-3. **Agreed deliverable.** The work, delivered as agreed — analysis, report, model, or review.
+An initial call to understand the problem, then a short written scope — the question, the approach, the deliverable and the timeline — and then the agreed work.
 
-I work as a registered self-employed practitioner in Belgium and invoice accordingly.
-
-Rates are discussed at the scoping call, once the work is clear.
+I work as a registered self-employed practitioner in Belgium and invoice accordingly. Rates are discussed at the scoping call.
 <!-- TODO(senne): decide whether to state a day rate -->
 
-[Discuss a project](contact.qmd){.cta}
+[Get in touch](contact.qmd){.pill}
