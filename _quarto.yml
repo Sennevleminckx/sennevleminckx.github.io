@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: _site
+  # CNAME and self-hosted fonts must be copied verbatim into _site so they
+  # survive `quarto render` / `quarto publish gh-pages`. Verified, not assumed.
+  resources:
+    - CNAME
+    - assets/fonts/
+    - assets/cv.pdf
+
+website:
+  title: "Senne Vleminckx"
+  description: "Statistical and methodological consultancy for health research and clinical operations."
+  site-url: "https://sennevleminckx.be"
+  favicon: assets/img/favicon.svg
+  open-graph: true
+  navbar:
+    pinned: true
+    logo: ""
+    title: "Senne Vleminckx"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Services"
+        href: services.qmd
+      - text: "Work"
+        href: work.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Publications"
+        href: publications.qmd
+    right:
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    border: true
+    left:
+      - text: "Senne Vleminckx · Ondernemingsnr. TODO(senne)"
+    center:
+      - text: "Legal & privacy"
+        href: legal.qmd
+    right:
+      - text: "&copy; 2026"
+
+format:
+  html:
+    theme:
+      - default
+      - styles.scss
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    link-external-icon: false
+    smooth-scroll: true
+    include-in-header:
+      - text: |
+          <link rel="preload" href="/assets/fonts/plex-sans-600.woff2" as="font" type="font/woff2" crossorigin>
+          <link rel="preload" href="/assets/fonts/source-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+    include-before-body:
+      - text: |
+          <a href="#quarto-content" class="skip-link">Skip to content</a>
+    grid:
+      body-width: 720px
+      sidebar-width: 220px
+      margin-width: 220px
