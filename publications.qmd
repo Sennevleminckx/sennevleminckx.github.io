@@ -1,0 +1,22 @@
+---
+title: "Publications"
+description: "Peer-reviewed articles, conference contributions and theses."
+bibliography: references.bib
+csl: assets/reverse-chron.csl
+nocite: |
+  @*
+link-citations: true
+toc: false
+---
+
+[Peer-reviewed record]{.eyebrow}
+
+Every entry below is generated from a single BibTeX file, newest first. DOIs link to the published record where one exists.
+
+::: {.callout-note appearance="simple"}
+[TODO]{.todo} — the two entries shown are format examples, not real records. Replace them in `references.bib`.
+<!-- TODO(senne): decide ORCID sync vs manual bib maintenance -->
+:::
+
+::: {#refs}
+:::

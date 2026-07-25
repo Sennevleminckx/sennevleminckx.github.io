@@ -1,0 +1,26 @@
+---
+title: "Work"
+description: "Selected case studies — the problem, the approach, and what changed."
+listing:
+  id: case-studies
+  contents: work
+  type: default
+  sort: "title"
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, categories]
+  date-format: "YYYY"
+toc: false
+---
+
+[Case studies]{.eyebrow}
+
+A short account of real problems and how they were solved — the decision at stake, the method, and the outcome. Each ends with one honest line on what I would do differently.
+
+No code appears here. If you want the detail behind a study, [ask](contact.qmd).
+
+::: {.rota role="img" aria-label="Roster motif: structure in scheduling data."}
+:::
+
+::: {#case-studies}
+:::

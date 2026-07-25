@@ -1,0 +1,94 @@
+---
+title: "Curriculum vitae"
+description: "Academic CV — position, education, teaching, service and technical skills."
+toc: true
+toc-title: "Sections"
+---
+
+[Academic record]{.eyebrow}
+
+Nursing scientist turned quantitative methodologist. Clinical background in emergency and intensive care; research in nursing workforce, psychometrics and health-economic modelling.
+
+[Download CV (PDF)](assets/cv.pdf){.cta .cv-download}
+<span class="todo">TODO(senne): supply assets/cv.pdf — current file is a placeholder.</span>
+
+## Current position
+
+::: {.cv-entry}
+::: {.cv-when}
+Oct 2026–
+:::
+::: {.cv-what}
+[Postdoctoral researcher]{.cv-role}
+
+[University of Antwerp — Faculty of Medicine and Health Sciences]{.cv-where}
+
+Infectious-disease modelling and health economics.
+:::
+:::
+
+## Education
+
+::: {.cv-entry}
+::: {.cv-when}
+2026
+:::
+::: {.cv-what}
+[PhD, nursing science]{.cv-role}
+
+[<span class="todo">TODO(senne): awarding institution</span>]{.cv-where}
+
+Nursing team composition, collaboration and workforce. Developed a team-composition framework and a collaboration index built from scheduling data.
+:::
+:::
+
+::: {.cv-entry}
+::: {.cv-when}
+<span class="todo">TODO</span>
+:::
+::: {.cv-what}
+[Registered nurse]{.cv-role}
+
+[<span class="todo">TODO(senne): degree, institution, year</span>]{.cv-where}
+
+Clinical practice in emergency and intensive care.
+:::
+:::
+
+## Appointments & affiliations
+
+::: {.cv-entry}
+::: {.cv-when}
+2026–
+:::
+::: {.cv-what}
+[Independent methodological consultant]{.cv-role}
+
+Registered self-employed practitioner, Belgium.
+:::
+:::
+
+<!-- TODO(senne): add prior clinical/academic appointments as needed. Copy a .cv-entry block. -->
+
+## Teaching
+
+<span class="todo">TODO(senne): list courses / workshops taught, with year and institution. One .cv-entry per item.</span>
+
+## Supervision
+
+<span class="todo">TODO(senne): list theses / projects supervised, with level (BSc/MSc/…) and year.</span>
+
+## Peer review & service
+
+<span class="todo">TODO(senne): journals reviewed for, committee memberships, editorial roles.</span>
+
+## Technical skills
+
+**Languages & tools**
+: Python, R, SQL, LaTeX.
+
+**Statistical methods**
+: Bayesian inference; psychometrics (EFA, CFA, bifactor, IRT); survival analysis; multilevel modelling.
+
+**Modelling & simulation**
+: Agent-based simulation; patient-flow and capacity modelling; health-economic modelling.
