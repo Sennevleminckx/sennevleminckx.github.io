@@ -38,18 +38,22 @@ Footer links to **Legal & privacy**.
 
 ## Add a publication
 
-Publications live in `bib/`, split by status:
+`publications.qmd` is hand-authored so it reads cleanly (prominent title, author list
+with your name bold, one link), grouped by status. To add one, copy an existing block
+under the right `##` heading and edit it:
 
-- `bib/peer-reviewed.bib`
-- `bib/under-review.bib`
-- `bib/in-preparation.bib`
-- `bib/outputs.bib` (datasets, protocols)
-- `bib/thesis.bib`
+```markdown
+::: {.pub}
+[Full title here.]{.pub__title}
 
-Add one BibTeX entry to the matching file. Include `doi = {...}` (or `url = {...}`
-for datasets/registrations); it renders as a link. The Publications page groups by
-these files (via the committed `_extensions/pandoc-ext/multibib` filter) and lists each
-group newest first — no other edit needed.
+Author, A., [Vleminckx, S.]{.me}, Other, B. *Venue*, Year. [DOI](https://doi.org/…)
+:::
+```
+
+Wrap your own name in `[…]{.me}` to bold it. Omit the link if there is none.
+
+The `bib/*.bib` files are kept as a machine-readable record of the same list (and mirror
+the LaTeX CV); update them alongside if you want them to stay current.
 
 ## The CV PDF
 
