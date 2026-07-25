@@ -10,7 +10,7 @@ project:
 
 website:
   title: "Senne Vleminckx"
-  description: "Statistical and methodological consultancy for health research and clinical operations."
+  description: "Nurse and quantitative researcher at the University of Antwerp."
   site-url: "https://sennevleminckx.be"
   favicon: assets/img/favicon.svg
   open-graph: true
@@ -33,7 +33,7 @@ website:
   page-footer:
     border: true
     left:
-      - text: "Senne Vleminckx · Ondernemingsnr. TODO(senne)"
+      - text: "Vleminckx Consultancy bv · BE 0785.296.063"
     center:
       - text: "Legal & privacy"
         href: legal.qmd
@@ -45,6 +45,7 @@ format:
     theme:
       - default
       - styles.scss
+    page-layout: article
     toc: false
     anchor-sections: false
     link-external-newwindow: true
@@ -58,6 +59,6 @@ format:
       - text: |
           <a href="#quarto-content" class="skip-link">Skip to content</a>
     grid:
-      body-width: 720px
-      sidebar-width: 220px
-      margin-width: 220px
+      body-width: 780px
+      sidebar-width: 200px
+      margin-width: 180px
