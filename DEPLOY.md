@@ -16,6 +16,10 @@ quarto render
 
 Must finish with **no warnings**. The output goes to `_site/` (git-ignored).
 
+The Publications page uses the vendored **`_extensions/pandoc-ext/multibib`** filter to
+group references by status. It is committed to the repo, so `quarto render` works on a
+fresh clone (and in CI) with no extra install step. Keep `_extensions/` in git.
+
 ## 2. First deploy
 
 ```bash

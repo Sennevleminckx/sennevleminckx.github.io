@@ -1,22 +1,48 @@
 ---
 title: "Publications"
 description: "Peer-reviewed articles, manuscripts under review, and research outputs."
+filters:
+  - multibib
+citeproc: false
 bibliography:
-  - bib/peer-reviewed.bib
-  - bib/under-review.bib
-  - bib/in-preparation.bib
-  - bib/outputs.bib
-  - bib/thesis.bib
+  peer:    bib/peer-reviewed.bib
+  review:  bib/under-review.bib
+  prep:    bib/in-preparation.bib
+  outputs: bib/outputs.bib
+  thesis:  bib/thesis.bib
 csl: assets/reverse-chron.csl
-nocite: |
-  @*
+nocite: '@*'
 link-citations: true
-toc: false
+toc: true
+toc-title: "Sections"
+validate-yaml: false
 ---
 
-Newest first. Names are as listed on each record; links go to the DOI or registration where one exists.
+Grouped by status, newest first within each group. Links go to the DOI or registration where one exists.
 
 <!-- TODO(senne): decide ORCID sync vs manual bib maintenance -->
 
-::: {#refs}
+## Peer-reviewed articles
+
+::: {#refs-peer}
+:::
+
+## Manuscripts under review
+
+::: {#refs-review}
+:::
+
+## Manuscripts in preparation
+
+::: {#refs-prep}
+:::
+
+## Datasets & other outputs
+
+::: {#refs-outputs}
+:::
+
+## Doctoral thesis
+
+::: {#refs-thesis}
 :::

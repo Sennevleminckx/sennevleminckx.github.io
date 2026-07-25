@@ -47,8 +47,9 @@ Publications live in `bib/`, split by status:
 - `bib/thesis.bib`
 
 Add one BibTeX entry to the matching file. Include `doi = {...}` (or `url = {...}`
-for datasets/registrations); it renders as a link. The Publications page picks it up
-automatically, newest first.
+for datasets/registrations); it renders as a link. The Publications page groups by
+these files (via the committed `_extensions/pandoc-ext/multibib` filter) and lists each
+group newest first — no other edit needed.
 
 ## The CV PDF
 
