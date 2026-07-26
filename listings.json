@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/two-stage-bayesian-selection.html",
+      "/projects/structured-collaboration-index.html",
+      "/projects/rag-student-assistant.html",
+      "/projects/nlp-patient-acuity.html",
+      "/projects/bnut-nursing-data-platform.html",
+      "/projects/citation-verification-tool.html"
+    ]
+  }
+]

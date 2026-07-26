@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Selected applied and consultancy projects: the problem a team brought me, and how I approached it.">
 
-<title>Legal &amp; privacy – Senne Vleminckx</title>
+<title>Projects – Senne Vleminckx</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,14 +72,72 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-engines','listing-language','listing-title','listing-subtitle','listing-categories','listing-order','listing-pagetitle','listing-page-layout','listing-toc','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-subtitle","listing-categories","listing-order","listing-pagetitle","listing-page-layout","listing-toc","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <link rel="preload" href="./assets/fonts/plex-sans-400.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="preload" href="./assets/fonts/plex-sans-600.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="preload" href="./assets/fonts/zilla-slab-700.woff2" as="font" type="font/woff2" crossorigin="">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Legal &amp; privacy">
-<meta property="og:description" content="Nurse and quantitative researcher at the University of Antwerp.">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Projects">
+<meta property="og:description" content="Selected applied and consultancy projects: the problem a team brought me, and how I approached it.">
 <meta property="og:site_name" content="Senne Vleminckx">
 </head>
 
@@ -114,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Consultancy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -142,28 +203,129 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><span class="eyebrow">Legal &amp; privacy</span></p>
-<section id="legal-privacy" class="level1">
-<h1>Legal &amp; privacy</h1>
-<section id="company-identification" class="level2">
-<h2 data-anchor-id="company-identification">Company identification</h2>
-<div class="contact-lines">
-<ul>
-<li><span class="k">Trading name</span> <span class="v">Vleminckx Consultancy bv</span></li>
-<li><span class="k">Registered address</span> <span class="v">Schooldreef 62, 2920 Kalmthout, Belgium</span></li>
-<li><span class="k">Company number</span> <span class="v">BE 0785.296.063</span></li>
-<li><span class="k">Email</span> <span class="v"><a href="mailto:senne.vleminckx@icloud.com">senne.vleminckx@icloud.com</a></span></li>
-</ul>
+<p><span class="eyebrow">Projects</span></p>
+<section id="projects" class="level1">
+<h1>Projects</h1>
+<p>Selected applied work. Each one is the problem a team brought me, and how I approached it.</p>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-custom">
+<div class="list quarto-listing-default">
+<div class="quarto-post">
+<h2 class="listing-title" data-anchor-id="projects">
+<a href="./projects/two-stage-bayesian-selection.html">Finding what matters when you have few cases and many candidate predictors</a>
+</h2>
+<div class="listing-subtitle">
+<a href="./projects/two-stage-bayesian-selection.html">A small sample and high dimensionality: too many demographic predictors to model at once.</a>
 </div>
-</section>
-<section id="privacy-notice" class="level2">
-<h2 data-anchor-id="privacy-notice">Privacy notice</h2>
-<p>This is a static website. It sets <strong>no cookies</strong>, uses <strong>no third-party trackers</strong>, and runs <strong>no analytics</strong>. No data about your visit is collected.</p>
-<p>If you email me, I keep your message and reply; I do not use it for anything else.</p>
-<p>Under the GDPR you may ask what data I hold about you, ask me to correct or delete it, or object to its use. Contact me at the address above.</p>
+<div class="listing-categories">
+<div class="listing-category">
+Bayesian
+</div>
+<div class="listing-category">
+Variable selection
+</div>
+<div class="listing-category">
+High-dimensional
+</div>
+</div>
+</div>
+<div class="quarto-post">
+<h2 class="listing-title">
+<a href="./projects/structured-collaboration-index.html">Measuring how much nursing teams actually collaborate</a>
+</h2>
+<div class="listing-subtitle">
+<a href="./projects/structured-collaboration-index.html">Rosters record who works when, not who works together, so collaboration stays a slogan.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category">
+Methodology
+</div>
+<div class="listing-category">
+Team collaboration
+</div>
+<div class="listing-category">
+Scheduling data
+</div>
+</div>
+</div>
+<div class="quarto-post">
+<h2 class="listing-title">
+<a href="./projects/rag-student-assistant.html">Answering student questions from the university’s own documents</a>
+</h2>
+<div class="listing-subtitle">
+<a href="./projects/rag-student-assistant.html">Students ask the same procedural questions; the answers are buried in PDFs.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category">
+Retrieval-augmented generation
+</div>
+<div class="listing-category">
+NLP
+</div>
+<div class="listing-category">
+Education
+</div>
+</div>
+</div>
+<div class="quarto-post">
+<h2 class="listing-title">
+<a href="./projects/nlp-patient-acuity.html">Reading clinical notes to estimate nursing workload</a>
+</h2>
+<div class="listing-subtitle">
+<a href="./projects/nlp-patient-acuity.html">Nursing workload is hard to read from free-text clinical notes.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category">
+Clinical NLP
+</div>
+<div class="listing-category">
+Workforce planning
+</div>
+</div>
+</div>
+<div class="quarto-post">
+<h2 class="listing-title">
+<a href="./projects/bnut-nursing-data-platform.html">Bringing nursing data into one place (BNuT)</a>
+</h2>
+<div class="listing-subtitle">
+<a href="./projects/bnut-nursing-data-platform.html">Nursing data sat in silos across institutions, impossible to compare.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category">
+Data platform
+</div>
+<div class="listing-category">
+Dashboards
+</div>
+<div class="listing-category">
+Nursing workforce
+</div>
+</div>
+</div>
+<div class="quarto-post">
+<h2 class="listing-title">
+<a href="./projects/citation-verification-tool.html">Automatic citation checking for student papers</a>
+</h2>
+<div class="listing-subtitle">
+<a href="./projects/citation-verification-tool.html">Verifying references by hand during grading is slow and easy to game.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category">
+NLP
+</div>
+<div class="listing-category">
+Automation
+</div>
+<div class="listing-category">
+Education
+</div>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
-</section>
+
 </section>
 
 </main> <!-- /main -->
@@ -607,7 +769,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link active" href="./legal.html" aria-current="page">
+    <a class="nav-link" href="./legal.html">
 <p>Legal &amp; privacy</p>
 </a>
   </li>  
