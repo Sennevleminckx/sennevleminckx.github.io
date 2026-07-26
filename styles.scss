@@ -230,6 +230,7 @@ details.cv-more[open] > summary::before { content: "▾ "; }
 #listing-projects .listing-title {
   font-family: $font-display; font-size: 1.35rem; font-weight: 700;
   line-height: 1.15; margin: 0 0 0.2rem;
+  border-top: 0; padding-top: 0;   // don't inherit the global h2 section rule
 }
 #listing-projects .listing-title a { color: $soil; text-decoration: none; }
 #listing-projects .quarto-post:hover .listing-title a { color: $rust; }

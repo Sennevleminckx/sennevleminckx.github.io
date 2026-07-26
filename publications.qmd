@@ -31,6 +31,20 @@ toc: false
 2026
 :::
 ::: {.pub__body}
+[Beyond staffing ratios — team demographic diversity, workforce stability, and their effects on patient safety and workforce sustainability: a multi-country analysis.]{.pub__title}
+
+[Vleminckx, S.]{.me}, De Meulenaere, K., Van Bogaert, P., Abrams, S., Willem, L., Haegdorens, F. *International Journal of Nursing Studies*.
+:::
+::: {.pub__action}
+[DOI](https://doi.org/10.1016/j.ijnurstu.2026.105570)
+:::
+::::
+
+:::: {.pub}
+::: {.pub__meta}
+2026
+:::
+::: {.pub__body}
 [From concept to practice: lessons from the Balanced Nursing Teams decision-support system.]{.pub__title}
 
 [Vleminckx, S.]{.me}, Van Bogaert, P., De Keyser, W., Haegdorens, F. *JMIR Nursing*.
@@ -47,7 +61,10 @@ toc: false
 ::: {.pub__body}
 [Self-confidence and anxiety in clinical decision-making among nursing students during high-fidelity simulation training: a longitudinal study.]{.pub__title}
 
-Van de Weyer, G., [Vleminckx, S.]{.me}, Haegdorens, F., Hilderson, D., Franck, E. *Advances in Simulation*.
+Van de Weyer, G., Haegdorens, F., [Vleminckx, S.]{.me}, Hilderson, D., Franck, E. *Advances in Simulation*.
+:::
+::: {.pub__action}
+[DOI](https://doi.org/10.1186/s41077-026-00445-8)
 :::
 ::::
 
@@ -117,17 +134,6 @@ Haegdorens, F., Slootmans, S., [Vleminckx, S.]{.me}, Van Bogaert, P., Franck, E.
 [Psychometric validation of the Flemish version of the Transition Readiness Assessment Questionnaire (TRAQ 6.0) in young people with chronic conditions.]{.pub__title}
 
 Janssens, N., Van den Berghe, S., Goossens, E., Vanden Wyngaert, K., [Vleminckx, S.]{.me}, Vyverman, L., Van Wilder, L., De Smedt, D. *Under review*.
-:::
-::::
-
-:::: {.pub}
-::: {.pub__meta}
-2025
-:::
-::: {.pub__body}
-[Beyond staffing ratios: how team demographic diversity and stability affect patient safety and staff sustainability in a multi-country study.]{.pub__title}
-
-[Vleminckx, S.]{.me}, De Meulenaere, K., Van Bogaert, P., Abrams, S., Willem, L., Haegdorens, F. *Under review, International Journal of Nursing Studies*.
 :::
 ::::
 
