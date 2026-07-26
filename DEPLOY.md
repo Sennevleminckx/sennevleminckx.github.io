@@ -86,7 +86,15 @@ Propagation can take **up to 24 hours**. Only once it resolves will the
 
 ## 6. Routine updates
 
-Edit content, then:
+Push to `main` and GitHub Actions renders and publishes automatically (see the
+section below). So the normal flow is just:
+
+```bash
+git push origin main
+```
+
+Manual publish still works as a fallback (e.g. if Actions is down), and produces
+the same result:
 
 ```bash
 quarto publish gh-pages
@@ -96,34 +104,22 @@ quarto publish gh-pages
 
 ---
 
-## Optional — render on push via GitHub Actions (proposed, not enabled)
+## Render on push via GitHub Actions (enabled)
 
-This lets you edit `.qmd` files from anywhere (even the GitHub web editor)
-without a local Quarto install. **Not created** — review and add
-`.github/workflows/publish.yml` yourself if you want it:
+`.github/workflows/publish.yml` runs on every push to `main`: it sets up Quarto,
+renders, and publishes to `gh-pages` using the built-in `GITHUB_TOKEN`. You can
+also trigger it by hand from the repo's **Actions** tab (`workflow_dispatch`).
 
-```yaml
-name: Publish site
-on:
-  push:
-    branches: [main]
-permissions:
-  contents: write
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+This means you can edit `.qmd` files from anywhere (even the GitHub web editor)
+without a local Quarto install. The site has no executable code cells, so the
+workflow only needs Quarto — no Python/R kernel.
 
-Trade-off: it adds a CI dependency and a second way to publish. If you only
-ever deploy from this machine, the manual `quarto publish gh-pages` is simpler.
+One-time repo settings to confirm: **Settings → Actions → General → Workflow
+permissions** must allow **Read and write** (needed to push to `gh-pages`), and
+**Settings → Pages → Source** stays **Deploy from a branch → `gh-pages` / root**.
+
+Manual `quarto publish gh-pages` still works and is the fallback if Actions is
+unavailable.
 
 ---
 
