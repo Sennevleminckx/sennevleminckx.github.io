@@ -1,8 +1,7 @@
 ---
 pagetitle: "Curriculum vitae"
 page-layout: article
-toc: true
-toc-title: "Sections"
+toc: false
 ---
 
 [Curriculum vitae]{.eyebrow}

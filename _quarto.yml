@@ -67,4 +67,6 @@ format:
     grid:
       body-width: 780px
       sidebar-width: 200px
-      margin-width: 180px
+      # No page uses margin content or a TOC; collapse the reserved right-hand
+      # margin column so the single reading column reads as centred (§1.5).
+      margin-width: 0px

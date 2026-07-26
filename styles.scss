@@ -189,11 +189,12 @@ main#quarto-document-content, .quarto-title-block { padding-top: 0.5rem; }
 }
 .price .amt { font-weight: 600; white-space: nowrap; }
 
-// ── CV — two-column, whitespace not borders ───────────────────────────────────
+// ── CV — same row pattern: meta (dates) | content, hairline between rows ──────
 .cv-entry {
   display: grid; grid-template-columns: 8.5rem 1fr; gap: 0.15rem 1.4rem;
-  padding: 0.5rem 0;
+  padding: 0.7rem 0;
 }
+.cv-entry + .cv-entry { border-top: 1px solid $cloud; }   // hairline between rows
 .cv-entry .cv-when { color: $muted; font-size: 0.92rem; padding-top: 0.1rem; }
 .cv-entry .cv-what p { margin-bottom: 0.25rem; }
 .cv-entry .cv-what ul { margin-top: 0.2rem; margin-bottom: 0.2rem; }
@@ -214,12 +215,27 @@ details.cv-more[open] > summary::before { content: "▾ "; }
   .cv-entry .cv-when { padding-top: 0; font-size: 0.85rem; }
 }
 
-// ── Publications — hand-styled blocks (Stig-like) ─────────────────────────────
-.pub { margin: 0 0 1.5rem; }
-.pub p { margin-bottom: 0.2rem; }
-.pub__title { display: block; font-weight: 600; font-size: 1.05rem; line-height: 1.35; color: $ink; }
-.pub .me { font-weight: 600; color: $ink; }
-.pub a { font-size: 0.95rem; }
+// ── Publications — three-column row: meta | content | action ──────────────────
+.pub {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr) auto;
+  column-gap: 1.4rem; row-gap: 0.15rem;
+  align-items: start;
+  padding: 1.05rem 0;
+}
+.pub + .pub { border-top: 1px solid $cloud; }   // hairline between rows
+.pub__meta { color: $meta; font-size: 0.9rem; padding-top: 0.15rem; }
+.pub__body { min-width: 0; }
+.pub__body p { margin: 0.2rem 0 0; }
+.pub__title { display: block; font-weight: 600; font-size: 1.05rem; line-height: 1.35; color: $soil; }
+.pub .me { font-weight: 600; color: $soil; }
+.pub__action { justify-self: end; padding-top: 0.15rem; }
+.pub__action a { font-size: 0.9rem; white-space: nowrap; }
+@media (max-width: 560px) {
+  .pub { grid-template-columns: 1fr; row-gap: 0.3rem; padding: 0.9rem 0; }
+  .pub__meta { padding-top: 0; font-size: 0.85rem; order: -1; }
+  .pub__action { justify-self: start; padding-top: 0; }
+}
 
 // ── Contact ────────────────────────────────────────────────────────────────────
 .contact-lines ul { list-style: none; padding: 0; margin: 1.4rem 0; }
