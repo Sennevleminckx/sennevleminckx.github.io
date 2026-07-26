@@ -1,9 +1,13 @@
 ---
-title: "Publications"
+pagetitle: "Publications"
 page-layout: article
 toc: true
 toc-title: "Sections"
 ---
+
+[Publications]{.eyebrow}
+
+# Publications
 
 ## Doctoral thesis
 

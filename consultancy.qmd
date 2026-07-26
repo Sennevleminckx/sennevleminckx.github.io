@@ -1,9 +1,13 @@
 ---
-title: "Consultancy"
+pagetitle: "Consultancy"
 description: "Data analysis and statistical support for health research, clinical operations and health-tech."
 page-layout: article
 toc: false
 ---
+
+[Consultancy]{.eyebrow}
+
+# Consultancy
 
 Alongside my research I take on a limited amount of consultancy — mostly **data analysis** for teams that already have the data.
 

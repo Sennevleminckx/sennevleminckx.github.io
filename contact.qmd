@@ -1,8 +1,12 @@
 ---
-title: "Contact"
+pagetitle: "Contact"
 description: "Get in touch about research, a review, or a piece of consultancy."
 toc: false
 ---
+
+[Contact]{.eyebrow}
+
+# Contact
 
 For consultancy, a useful first message says three things: the **problem**, the **data** you have (or plan to collect), and your **timeline**. I reply within a few working days.
 

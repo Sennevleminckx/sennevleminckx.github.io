@@ -1,9 +1,13 @@
 ---
-title: "Curriculum vitae"
+pagetitle: "Curriculum vitae"
 page-layout: article
 toc: true
 toc-title: "Sections"
 ---
+
+[Curriculum vitae]{.eyebrow}
+
+# Curriculum vitae
 
 [Nurse and quantitative researcher — nursing workforce, team composition, and health-data methods.]{.cv-lead}
 

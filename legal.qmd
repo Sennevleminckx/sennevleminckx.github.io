@@ -1,8 +1,12 @@
 ---
-title: "Legal & privacy"
+pagetitle: "Legal & privacy"
 page-layout: article
 toc: false
 ---
+
+[Legal & privacy]{.eyebrow}
+
+# Legal & privacy
 
 ## Company identification
 

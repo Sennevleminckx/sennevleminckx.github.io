@@ -1,15 +1,24 @@
 /*-- scss:defaults --*/
 
-// ── Palette (quiet, near-monochrome) ────────────────────────────────────────
-$paper:  #ffffff;
-$paper-2:#faf9f7;   // faint fill for subtle blocks
-$ink:    #1a1a1a;
-$muted:  #667079;   // captions, dates
-$rule:   #e7e6e2;   // hairlines
-$accent: #2f5c8f;   // links + small marks — restrained, AA on white
+// ── Palette (thesis brown on a cool off-white ground) ────────────────────────
+// Values are fixed by the brief; everything derives from them.
+$soil:   #54392D;   // body text, headings, nav — deliberately not near-black
+$rust:   #864A33;   // links, CTAs, eyebrow labels, active nav
+$cedar:  #A1665B;   // large display type only — never body or links
+$cloud:  #B5B0AB;   // hairline rules, borders, callout fills — never text
+$paper:  #FAFBFB;   // cool off-white ground (not a warm cream; no gradient)
+$meta:   #7C6A5E;   // muted meta text (dates, years) — AA at 4.96:1 ($cloud fails as text)
+
+// Semantic aliases kept so existing rules/vars resolve.
+$paper-2: rgba($cloud, 0.16);   // faint fill for subtle blocks
+$ink:    $soil;
+$muted:  $meta;
+$rule:   $cloud;
+$accent: $rust;
 
 // ── Fonts ────────────────────────────────────────────────────────────────────
 $font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$font-display:           "Zilla Slab", Georgia, "Times New Roman", serif;
 $font-family-base:       $font-family-sans-serif;
 $headings-font-family:   $font-family-sans-serif;
 
@@ -19,6 +28,8 @@ $headings-font-weight: 600;
 $headings-line-height: 1.2;
 
 // ── Bootstrap overrides ──────────────────────────────────────────────────────
+$blue:       $rust;   // kill Bootstrap's named blue token (and everything derived from it)
+$primary:    $rust;   // cascade the brand colour through all Bootstrap components
 $body-bg:    $paper;
 $body-color: $ink;
 
@@ -52,17 +63,48 @@ $footer-bg: $paper;
   font-display: swap; src: url("/assets/fonts/plex-sans-600.woff2") format("woff2");
 }
 
+// ── Self-hosted display face (Zilla Slab, subset, two weights) ────────────────
+@font-face {
+  font-family: "Zilla Slab"; font-style: normal; font-weight: 500;
+  font-display: swap; src: url("/assets/fonts/zilla-slab-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Zilla Slab"; font-style: normal; font-weight: 700;
+  font-display: swap; src: url("/assets/fonts/zilla-slab-700.woff2") format("woff2");
+}
+
 // ── Base ─────────────────────────────────────────────────────────────────────
 body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 
-// Type scale — confident, well-spaced
-h1 { font-size: 2.35rem; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.5rem; }
-h2 {
-  font-size: 1.15rem; font-weight: 600; letter-spacing: 0.01em;
-  margin-top: 3rem; margin-bottom: 1rem; padding-top: 1.4rem;
-  border-top: 1px solid $rule;               // clean section breaks (few, purposeful)
+// Type scale — Zilla Slab display over Plex Sans body, explicit per level.
+h1, h2 { font-family: $font-display; color: $soil; }
+h1 {
+  font-size: 2.9rem; font-weight: 700; letter-spacing: -0.01em;
+  line-height: 1.05; margin-bottom: 0.5rem;
 }
-h3 { font-size: 1.08rem; font-weight: 600; margin-top: 1.6rem; margin-bottom: 0.3rem; }
+h2 {
+  font-family: $font-display; font-size: 1.5rem; font-weight: 700;
+  letter-spacing: 0; line-height: 1.15;
+  margin-top: 2.8rem; margin-bottom: 1rem; padding-top: 1.4rem;
+  border-top: 1px solid $cloud;              // clean section breaks (few, purposeful)
+}
+h3 {
+  font-size: 1.05rem; font-weight: 600; letter-spacing: 0.005em;
+  margin-top: 1.6rem; margin-bottom: 0.3rem; color: $soil;
+}
+
+// ── Eyebrow: rule + letterspaced small-caps label above every non-Home title ──
+.eyebrow {
+  display: block;
+  font-family: $font-family-sans-serif;
+  font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: $rust; margin: 0.6rem 0 0.9rem;
+}
+.eyebrow::before {
+  content: ""; display: inline-block; width: 1.6rem; height: 0;
+  border-top: 1px solid $rust; vertical-align: 0.28em; margin-right: 0.6rem;
+}
 
 // Comfortable measure comes from the column width, not per-element clamps.
 p { margin-bottom: 1.05rem; }
@@ -106,17 +148,19 @@ main#quarto-document-content, .quarto-title-block { padding-top: 0.5rem; }
   .portrait img, .portrait--placeholder { height: 175px; }
 }
 
-// ── External-link row ─────────────────────────────────────────────────────────
-.links {
+// ── External-link row (inline, underlined — no bullets) ───────────────────────
+// Quarto wraps the markdown list as `.links > ul > li`, so target the ul/li.
+.links ul {
   list-style: none; padding: 0; margin: 1.4rem 0 0.6rem;
-  display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem;
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem;
 }
-.links li { position: relative; }
-.links li + li::before {
-  content: ""; position: absolute; left: -0.7rem; top: 0.35em; bottom: 0.35em;
-  border-left: 1px solid $rule;
+.links li { margin: 0; }
+.links a {
+  font-size: 0.95rem; color: $rust;
+  text-decoration: underline; text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em; text-decoration-color: rgba($rust, 0.45);
 }
-.links a { font-size: 0.95rem; }
+.links a:hover, .links a:focus-visible { text-decoration-color: $rust; }
 
 // ── Subtle bordered link (download CV, get in touch) ───────────────────────────
 .pill {
@@ -126,12 +170,13 @@ main#quarto-document-content, .quarto-title-block { padding-top: 0.5rem; }
 }
 .pill:hover, .pill:focus-visible { border-color: $accent; color: $accent; text-decoration: none; }
 
-// ── Consultancy offers — whitespace, no row borders ───────────────────────────
+// ── Consultancy offers — whitespace and type hierarchy, no admonition box ─────
 .offer-lead {
-  background: $paper-2; border: 1px solid $rule; border-radius: 8px;
-  padding: 1.1rem 1.3rem; margin: 1.4rem 0 1.8rem;
+  margin: 1.2rem 0 2rem; padding-left: 1.1rem;
+  border-left: 3px solid $cedar;             // quiet accent, not a warning box
 }
-.offer-lead h3 { margin-top: 0; }
+.offer-lead h2, .offer-lead h3 { margin-top: 0; }
+.offer-lead p { font-size: 1.08rem; }
 .offer-lead p:last-child { margin-bottom: 0; }
 .offers { margin-top: 1rem; }
 .offer { padding: 0.55rem 0; }
@@ -177,7 +222,7 @@ details.cv-more[open] > summary::before { content: "▾ "; }
 .pub a { font-size: 0.95rem; }
 
 // ── Contact ────────────────────────────────────────────────────────────────────
-.contact-lines { list-style: none; padding: 0; margin: 1.4rem 0; }
+.contact-lines ul { list-style: none; padding: 0; margin: 1.4rem 0; }
 .contact-lines li {
   padding: 0.55rem 0; display: flex; gap: 1rem; align-items: baseline;
 }
