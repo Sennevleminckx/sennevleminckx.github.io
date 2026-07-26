@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  # Render only .qmd site pages. Repo docs (TODO.md, DEPLOY.md, README.md) are
+  # NOT site content and must not be published; restricting to *.qmd keeps them
+  # out and auto-covers subdirectories like work/.
+  render:
+    - "**/*.qmd"
   # CNAME and self-hosted fonts must be copied verbatim into _site so they
   # survive `quarto render` / `quarto publish gh-pages`. Verified, not assumed.
   resources:
