@@ -19,8 +19,6 @@ toc: false
 
 ::: {.cv-what}
 [Postdoctoral researcher]{.cv-role}, [University of Antwerp — Faculty of Medicine and Health Sciences]{.cv-where}
-
-Infectious-disease modelling and health economics.
 :::
 ::::
 
@@ -29,8 +27,6 @@ Infectious-disease modelling and health economics.
 
 ::: {.cv-what}
 [PhD fellow]{.cv-role}, [University of Antwerp]{.cv-where}
-
-Balanced Care Teams: a systems approach to nursing workforce design. Built a framework for team composition (heterogeneity, stability, structured collaboration) and a measure of collaboration from scheduling data.
 :::
 ::::
 
@@ -39,8 +35,6 @@ Balanced Care Teams: a systems approach to nursing workforce design. Built a fra
 
 ::: {.cv-what}
 [Junior researcher (project lead)]{.cv-role}, [University of Antwerp]{.cv-where}
-
-Balanced Nursing Teams (BNuT) project — integrating hospital data with a 360-degree survey into interactive dashboards. Designed the survey, co-developed the data architecture, and led procurement with an external software firm.
 :::
 ::::
 
@@ -49,8 +43,6 @@ Balanced Nursing Teams (BNuT) project — integrating hospital data with a 360-d
 
 ::: {.cv-what}
 [Emergency nurse]{.cv-role}, [Ziekenhuis Netwerk Antwerpen]{.cv-where}
-
-Urban emergency department (>110 patients/day); COVID-19 preparedness and prehospital work.
 :::
 ::::
 
@@ -59,8 +51,6 @@ Urban emergency department (>110 patients/day); COVID-19 preparedness and prehos
 
 ::: {.cv-what}
 [Intensive care nurse]{.cv-role}, [University Hospital Leuven]{.cv-where}
-
-Tertiary medical ICU, alongside the Master in Nursing and Midwifery. Master's thesis reduced catheter-related infections by 80%.
 :::
 ::::
 
@@ -112,7 +102,7 @@ Bachelor in Nursing, **Hogeschool UCLL**
 [2025]{.cv-when}
 
 ::: {.cv-what}
-Visiting researcher, **Erasmus MC — DataHub, Rotterdam**. Machine learning for ICU patient-acuity assessment and resource allocation.
+Visiting researcher, **Erasmus MC — DataHub, Rotterdam**
 :::
 ::::
 
@@ -243,7 +233,7 @@ Invited and oral talks (CRIC; EIASM, Barcelona) on a collaboration-intensity met
 [BNuT]{.cv-when}
 
 ::: {.cv-what}
-**Balanced Nursing Teams platform** — [app.bnut.eu](http://app.bnut.eu). Centralises and visualises nursing data across institutions, combining survey and administrative data into interactive dashboards.
+**Balanced Nursing Teams platform** — [app.bnut.eu](http://app.bnut.eu)
 :::
 ::::
 

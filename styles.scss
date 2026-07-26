@@ -134,7 +134,7 @@ main#quarto-document-content, .quarto-title-block { padding-top: 0.5rem; }
 .intro { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin: 1rem 0 1.6rem; }
 .intro__text { flex: 1 1 340px; min-width: 0; }
 .intro__text h1 { margin-top: 0; }
-.role { color: $muted; font-size: 1.08rem; line-height: 1.4; margin: 0.2rem 0 1.1rem; }
+.intro__text .eyebrow { margin-top: 0; }
 
 .portrait { flex: 0 0 auto; width: 200px; }
 .portrait img { width: 200px; height: 250px; object-fit: cover; border-radius: 6px; display: block; }
@@ -169,15 +169,10 @@ main#quarto-document-content, .quarto-title-block { padding-top: 0.5rem; }
   font-size: 0.92rem; background: $paper; margin: 0.4rem 0;
 }
 .pill:hover, .pill:focus-visible { border-color: $accent; color: $accent; text-decoration: none; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.2rem; }
+.cta-row .pill { margin: 0; }
 
 // ── Consultancy offers — whitespace and type hierarchy, no admonition box ─────
-.offer-lead {
-  margin: 1.2rem 0 2rem; padding-left: 1.1rem;
-  border-left: 3px solid $cedar;             // quiet accent, not a warning box
-}
-.offer-lead h2, .offer-lead h3 { margin-top: 0; }
-.offer-lead p { font-size: 1.08rem; }
-.offer-lead p:last-child { margin-bottom: 0; }
 .offers { margin-top: 1rem; }
 .offer { padding: 0.55rem 0; }
 .offer h3 { margin-top: 0.4rem; font-size: 1.02rem; }

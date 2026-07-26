@@ -9,12 +9,9 @@ toc: false
 
 # Consultancy
 
-Alongside my research I take on a limited amount of consultancy — mostly **data analysis** for teams that already have the data.
+## Data analysis
 
-::: {.offer-lead}
-### Data analysis
 You have the data — from a study, a hospital system, a survey — and you want answers you can rely on. I take it from raw data to a clear, defensible result: the right model, reproducible code, and a plain account of what it does and does not support.
-:::
 
 I also help with the work around the analysis:
 
@@ -40,14 +37,14 @@ Patient-flow and capacity modelling, agent-based simulation, cost-effectiveness.
 An independent read of an analysis before submission, or after a reviewer's report.
 :::
 
+::: {.offer}
+### Teaching & tutoring
+Statistics, Python and research methods, one-to-one or small group. €60/hour.
+:::
+
 ::::
 
 ## Pricing
-
-::: {.price}
-[€60 / hour]{.amt}
-Tutoring and one-to-one teaching (statistics, Python, research methods).
-:::
 
 ::: {.price}
 [Per project]{.amt}

@@ -12,15 +12,13 @@ toc: false
 ::::
 
 :::: {.intro__text}
+[Postdoctoral researcher, Faculty of Medicine and Health Sciences, University of Antwerp]{.eyebrow}
+
 # Senne Vleminckx
 
-::: {.role}
-Nurse and quantitative researcher. Postdoctoral researcher, Faculty of Medicine and Health Sciences, University of Antwerp.
-:::
+I research how nursing teams are put together and how they collaborate — and how that shows up in patient and staff outcomes.
 
-I research nursing workforce and team composition — how teams are put together, how they collaborate, and how that shows up in patient and staff outcomes — mostly from hospital rostering, administrative and survey data. My current work turns to infectious-disease modelling and health economics.
-
-Before research I worked as a nurse in emergency and intensive care.
+Before research, I worked as a nurse in emergency and intensive care.
 ::::
 
 :::::
@@ -33,4 +31,9 @@ Before research I worked as a nurse in emergency and intensive care.
 - [Email](mailto:senne&#46;vleminckx&#64;icloud&#46;com)
 :::
 
-Alongside research, I take on a limited amount of data-analysis consultancy. [Consultancy →](consultancy.qmd)
+::: {.cta-row}
+[Consultancy](consultancy.qmd){.pill}
+:::
+
+<!-- TODO(step 6): add "Selected work" CTA -> work.qmd once the Work page exists -->
+
