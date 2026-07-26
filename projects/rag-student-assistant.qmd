@@ -2,6 +2,7 @@
 title: "Answering student questions from the university's own documents"
 subtitle: "Students ask the same procedural questions; the answers are buried in PDFs."
 categories: [Retrieval-augmented generation, NLP, Education]
+order: 3
 pagetitle: "Student-question assistant (RAG) – Senne Vleminckx"
 page-layout: article
 toc: false

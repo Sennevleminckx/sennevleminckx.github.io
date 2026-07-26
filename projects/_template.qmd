@@ -2,6 +2,7 @@
 title: ""
 subtitle: ""          # one-line summary of the problem
 categories: []        # e.g. [NLP, Dashboards, Survey design]
+order: 10             # listing sorts on this, lowest first
 pagetitle: " – Senne Vleminckx"
 page-layout: article
 toc: false

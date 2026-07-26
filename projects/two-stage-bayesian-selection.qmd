@@ -1,0 +1,15 @@
+---
+title: "Finding what matters when you have few cases and many candidate predictors"
+subtitle: "A small sample and high dimensionality: too many demographic predictors to model at once."
+categories: [Bayesian, Variable selection, High-dimensional]
+order: 1
+pagetitle: "Two-stage Bayesian selection – Senne Vleminckx"
+page-layout: article
+toc: false
+---
+
+## The problem
+Some questions come with a small sample but a long list of candidate predictors — here, which demographic characteristics of a team relate to its outcomes. You can't put them all in one model without overfitting, and naive variable selection can quietly drop the confounders you are obliged to keep.
+
+## The approach
+I built a two-stage method. Stage one selects variables with an elastic net while protecting known confounders through the Frisch–Waugh–Lovell theorem: the confounders are partialled out and always retained, so selection acts only on the remaining candidates. Stage two fits a Bayesian Ridge regression with resampling, giving regularised, stable estimates and honest uncertainty from limited data. Together they screen a wide field of predictors and still return a defensible answer about which factors matter.

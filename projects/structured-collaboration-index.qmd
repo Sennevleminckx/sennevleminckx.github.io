@@ -2,6 +2,7 @@
 title: "Measuring how much nursing teams actually collaborate"
 subtitle: "Rosters record who works when, not who works together — so collaboration stays a slogan."
 categories: [Methodology, Team collaboration, Scheduling data]
+order: 2
 pagetitle: "Structured Collaboration Index – Senne Vleminckx"
 page-layout: article
 toc: false

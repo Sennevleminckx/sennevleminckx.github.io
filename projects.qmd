@@ -6,7 +6,7 @@ toc: false
 listing:
   id: projects
   contents: "projects/*.qmd"
-  sort: false
+  sort: "order"
   template: assets/projects-listing.ejs
 ---
 

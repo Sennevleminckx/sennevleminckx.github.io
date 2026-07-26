@@ -2,6 +2,7 @@
 title: "Bringing nursing data into one place (BNuT)"
 subtitle: "Nursing data sat in silos across institutions, impossible to compare."
 categories: [Data platform, Dashboards, Nursing workforce]
+order: 5
 pagetitle: "BNuT nursing-data platform – Senne Vleminckx"
 page-layout: article
 toc: false

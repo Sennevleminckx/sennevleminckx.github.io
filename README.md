@@ -90,9 +90,10 @@ Copy the template and fill it in:
 cp projects/_template.qmd projects/your-slug.qmd
 ```
 
-Set the `title`, `subtitle` (one-line problem summary) and `categories`, then write the
-two short sections (The problem / The approach). It appears on `/projects` automatically.
-Keep it to what is real — the problem a team brought you and how you approached it.
+Set the `title`, `subtitle` (one-line problem summary), `categories` and an `order:`
+number (the listing sorts on it, lowest first), then write the two short sections
+(The problem / The approach). It appears on `/projects` automatically. Keep it to what
+is real — the problem a team brought you and how you approached it.
 
 ## The CV PDF
 

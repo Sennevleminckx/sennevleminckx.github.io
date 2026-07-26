@@ -2,6 +2,7 @@
 title: "Automatic citation checking for student papers"
 subtitle: "Verifying references by hand during grading is slow and easy to game."
 categories: [NLP, Automation, Education]
+order: 6
 pagetitle: "Citation verification tool – Senne Vleminckx"
 page-layout: article
 toc: false
