@@ -1,0 +1,20 @@
+---
+pagetitle: "Projects"
+description: "Selected applied and consultancy projects — the problem a team brought me, and how I approached it."
+page-layout: article
+toc: false
+listing:
+  id: projects
+  contents: "projects/*.qmd"
+  sort: false
+  template: assets/projects-listing.ejs
+---
+
+[Projects]{.eyebrow}
+
+# Projects
+
+Selected applied work — each one the problem a team brought me, and how I approached it.
+
+::: {#projects}
+:::

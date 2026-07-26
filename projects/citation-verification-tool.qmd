@@ -1,0 +1,14 @@
+---
+title: "Automatic citation checking for student papers"
+subtitle: "Verifying references by hand during grading is slow and easy to game."
+categories: [NLP, Automation, Education]
+pagetitle: "Citation verification tool – Senne Vleminckx"
+page-layout: article
+toc: false
+---
+
+## The problem
+Checking whether a student's references are real and correctly cited is tedious to do by hand, and mismatched or invented citations are easy to miss at grading time.
+
+## The approach
+I built an internal tool that reads the citations out of a paper, looks up each one's DOI, and cross-checks the cited title against the registered title for that DOI — flagging the references that don't match so a marker can look closer. It turns a slow manual check into a quick, consistent first pass.

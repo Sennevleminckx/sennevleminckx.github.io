@@ -1,0 +1,14 @@
+---
+title: "Answering student questions from the university's own documents"
+subtitle: "Students ask the same procedural questions; the answers are buried in PDFs."
+categories: [Retrieval-augmented generation, NLP, Education]
+pagetitle: "Student-question assistant (RAG) – Senne Vleminckx"
+page-layout: article
+toc: false
+---
+
+## The problem
+Students at the University of Antwerp keep asking the same procedural questions — about thesis rules, internships, study-guide details — and the answers are already written down, just scattered across long PDFs that few people read end to end.
+
+## The approach
+I built a retrieval-augmented assistant that answers strictly from the official documents. It splits the source files into passages, embeds them in a vector store, retrieves the passages most relevant to each question, and asks a language model to answer only from that retrieved context — citing the source and declining when the documents don't cover it. The prompt is hardened against attempts to override those rules, and every question and answer is logged for review.
