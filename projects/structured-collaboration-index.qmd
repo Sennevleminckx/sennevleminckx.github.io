@@ -1,0 +1,14 @@
+---
+title: "Measuring how much nursing teams actually collaborate"
+subtitle: "Rosters record who works when, not who works together — so collaboration stays a slogan."
+categories: [Methodology, Team collaboration, Scheduling data]
+pagetitle: "Structured Collaboration Index – Senne Vleminckx"
+page-layout: article
+toc: false
+---
+
+## The problem
+Collaboration between nursing teams is treated as important but is rarely measured. Staffing and rostering data record who works when, not who actually works together, so "more collaboration" stays a slogan rather than something you can track, compare, or link to outcomes.
+
+## The approach
+I developed the Structured Collaboration Index — a method that derives collaboration intensity in multi-team systems directly from scheduling data, turning ordinary rosters into a quantitative measure of how much teams overlap and work together. It gives workforce research and hospital management a concrete, repeatable metric in place of a subjective judgement.

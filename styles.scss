@@ -238,8 +238,8 @@ details.cv-more[open] > summary::before { content: "▾ "; }
 #listing-projects .listing-categories { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 #listing-projects .listing-category {
   font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
-  color: $rust; border: 1px solid $cloud; border-radius: 999px;
-  padding: 0.1rem 0.65rem; cursor: default;
+  color: $meta; border: 1px solid $cloud; border-radius: 999px;
+  padding: 0.1rem 0.65rem; cursor: default;   // muted tag, not a link
 }
 
 // ── Contact ────────────────────────────────────────────────────────────────────
