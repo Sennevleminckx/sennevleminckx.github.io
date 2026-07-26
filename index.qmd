@@ -32,8 +32,6 @@ Before research, I worked as a nurse in emergency and intensive care.
 :::
 
 ::: {.cta-row}
-[Consultancy](consultancy.qmd){.pill}
+[Consultancy](consultancy.qmd){.pill} [Selected work](work.qmd){.pill}
 :::
-
-<!-- TODO(step 6): add "Selected work" CTA -> work.qmd once the Work page exists -->
 

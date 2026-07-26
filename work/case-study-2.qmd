@@ -1,0 +1,25 @@
+---
+title: "Case study 2 — TODO"
+subtitle: "TODO(senne): one-line summary of the problem"
+categories: []
+pagetitle: "Case study 2 (draft) – Senne Vleminckx"
+page-layout: article
+toc: false
+---
+
+[Placeholder]{.todo} — TODO(senne): write this case study (150–250 words) using the section structure below. Do not publish until it is real; do not invent details.
+
+## Context
+<!-- TODO(senne): sector and setting, anonymised where needed. -->
+
+## The question
+<!-- TODO(senne): what decision hung on the answer. -->
+
+## Approach
+<!-- TODO(senne): named methods, two sentences. Enough to signal competence, not a tutorial. -->
+
+## Outcome
+<!-- TODO(senne): what changed as a result. -->
+
+## What I'd do differently
+<!-- TODO(senne): one honest sentence about the main constraint or a choice I'd revisit. -->

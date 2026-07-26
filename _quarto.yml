@@ -32,6 +32,8 @@ website:
         href: publications.qmd
       - text: "Consultancy"
         href: consultancy.qmd
+      - text: "Work"
+        href: work.qmd
     right:
       - text: "Contact"
         href: contact.qmd
