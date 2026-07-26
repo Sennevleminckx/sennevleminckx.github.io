@@ -8,7 +8,7 @@ toc: false
 
 # Curriculum vitae
 
-[Nurse and quantitative researcher — nursing workforce, team composition, and health-data methods.]{.cv-lead}
+[Nurse and quantitative researcher. Nursing workforce, team composition, and health-data methods.]{.cv-lead}
 
 [Download CV (PDF)](assets/cv.pdf){.pill}
 
@@ -18,7 +18,7 @@ toc: false
 [2026 –]{.cv-when}
 
 ::: {.cv-what}
-[Postdoctoral researcher]{.cv-role}, [University of Antwerp — Faculty of Medicine and Health Sciences]{.cv-where}
+[Postdoctoral researcher]{.cv-role}, [University of Antwerp, Faculty of Medicine and Health Sciences]{.cv-where}
 :::
 ::::
 
@@ -102,7 +102,7 @@ Bachelor in Nursing, **Hogeschool UCLL**
 [2025]{.cv-when}
 
 ::: {.cv-what}
-Visiting researcher, **Erasmus MC — DataHub, Rotterdam**
+Visiting researcher, **Erasmus MC DataHub, Rotterdam**
 :::
 ::::
 
@@ -138,7 +138,7 @@ AI & Machine Learning for Biomedical Research (**VAIA**, 2024); Python & Data Sc
 [2022 – present]{.cv-when}
 
 ::: {.cv-what}
-**Advanced Statistics** — Master's course, University of Antwerp
+**Advanced Statistics**, Master's course at the University of Antwerp
 :::
 ::::
 
@@ -146,7 +146,7 @@ AI & Machine Learning for Biomedical Research (**VAIA**, 2024); Python & Data Sc
 [2024 – present]{.cv-when}
 
 ::: {.cv-what}
-**Artificial Intelligence in Healthcare** — introductory lecture, University of Antwerp
+**Artificial Intelligence in Healthcare**, introductory lecture at the University of Antwerp
 :::
 ::::
 
@@ -154,7 +154,7 @@ AI & Machine Learning for Biomedical Research (**VAIA**, 2024); Python & Data Sc
 [2024 – present]{.cv-when}
 
 ::: {.cv-what}
-**[Statistical consultant](consultancy.qmd)** — study design, analysis and review for research teams
+**[Statistical consultant](consultancy.qmd)**, study design, analysis and review for research teams
 :::
 ::::
 
@@ -164,7 +164,7 @@ AI & Machine Learning for Biomedical Research (**VAIA**, 2024); Python & Data Sc
 [2025 – present]{.cv-when}
 
 ::: {.cv-what}
-[PhD mentor]{.cv-role} — E. Claes: *Optimalisatie van spoedgevallenzorg via datagedreven beslissingen*
+[PhD mentor]{.cv-role} to E. Claes: *Optimalisatie van spoedgevallenzorg via datagedreven beslissingen*
 :::
 ::::
 
@@ -177,7 +177,7 @@ AI & Machine Learning for Biomedical Research (**VAIA**, 2024); Python & Data Sc
 [2025 – 2026]{.cv-when}
 
 ::: {.cv-what}
-Jansen, J. — *kennistest AI-basisprincipes bij verpleegkundigen en studenten verpleegkunde* · Dijckmans, E. — *kennistest AI in de gezondheidszorg bij artsen en studenten geneeskunde* · Installé, S. — *datagedreven leiderschap in Vlaamse ziekenhuizen* · Arntz, A. — *lighting conditions and video-assessed clinical deterioration (NIPDS)*
+Jansen, J.: *kennistest AI-basisprincipes bij verpleegkundigen en studenten verpleegkunde* · Dijckmans, E.: *kennistest AI in de gezondheidszorg bij artsen en studenten geneeskunde* · Installé, S.: *datagedreven leiderschap in Vlaamse ziekenhuizen* · Arntz, A.: *lighting conditions and video-assessed clinical deterioration (NIPDS)*
 :::
 ::::
 
@@ -185,7 +185,7 @@ Jansen, J. — *kennistest AI-basisprincipes bij verpleegkundigen en studenten v
 [2024 – 2025]{.cv-when}
 
 ::: {.cv-what}
-Van Oorschot, C. — *absenteïsme bij zorgpersoneel in een ziekenhuisnetwerk* · De Schrijver, C. — *meetinstrument voor datagedreven besluitvorming bij leidinggevenden (Delphi)*
+Van Oorschot, C.: *absenteïsme bij zorgpersoneel in een ziekenhuisnetwerk* · De Schrijver, C.: *meetinstrument voor datagedreven besluitvorming bij leidinggevenden (Delphi)*
 :::
 ::::
 
@@ -193,7 +193,7 @@ Van Oorschot, C. — *absenteïsme bij zorgpersoneel in een ziekenhuisnetwerk* �
 [2022 – 2024]{.cv-when}
 
 ::: {.cv-what}
-Neyens, L. — *machine-learningmodel voor triage en patiëntenallocatie op spoed* · Michielsen, A. — *voorspellende factoren voor ligduur op spoedgevallen*
+Neyens, L.: *machine-learningmodel voor triage en patiëntenallocatie op spoed* · Michielsen, A.: *voorspellende factoren voor ligduur op spoedgevallen*
 :::
 ::::
 
@@ -203,7 +203,7 @@ Neyens, L. — *machine-learningmodel voor triage en patiëntenallocatie op spoe
 [2024 – 2025]{.cv-when}
 
 ::: {.cv-what}
-Goos, M. & Vanuffelen, Z. — *pre-implementatie van BNuT binnen AZ Klina* (Organisation and Management) · Van Reusel, C. — *software spin-off business model* (Applied Economic Sciences)
+Goos, M. & Vanuffelen, Z.: *pre-implementatie van BNuT binnen AZ Klina* (Organisation and Management) · Van Reusel, C.: *software spin-off business model* (Applied Economic Sciences)
 :::
 ::::
 
@@ -233,7 +233,7 @@ Invited and oral talks (CRIC; EIASM, Barcelona) on a collaboration-intensity met
 [BNuT]{.cv-when}
 
 ::: {.cv-what}
-**Balanced Nursing Teams platform** — [app.bnut.eu](http://app.bnut.eu)
+**Balanced Nursing Teams platform**, [app.bnut.eu](http://app.bnut.eu)
 :::
 ::::
 

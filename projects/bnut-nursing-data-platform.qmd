@@ -9,7 +9,7 @@ toc: false
 ---
 
 ## The problem
-Hospitals hold rich data on their nursing teams — rosters, administrative records, staff surveys — but it sits in separate systems and formats, so teams and institutions can't easily be compared or tracked over time.
+Hospitals hold a lot of data on their nursing teams: rosters, administrative records, staff surveys. But it sits in separate systems and formats, so teams and institutions can't easily be compared or tracked over time.
 
 ## The approach
 I co-developed BNuT ([app.bnut.eu](http://app.bnut.eu), login required), a web application that centralises and visualises nursing data across institutions. My focus was the back end and the statistics: the data architecture, the survey design, and the team-composition and collaboration metrics behind the dashboards. The front-end application was built with an external software firm.

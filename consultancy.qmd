@@ -11,7 +11,7 @@ toc: false
 
 ## Data analysis
 
-You have the data — from a study, a hospital system, a survey — and you want answers you can rely on. I take it from raw data to a clear, defensible result: the right model, reproducible code, and a plain account of what it does and does not support.
+You already have the data, whether from a study, a hospital system or a survey, and you want answers you can trust. I take it from raw numbers to a result you can defend: the right model, code that runs again, and a plain account of what it does and doesn't show.
 
 I also help with the work around the analysis:
 

@@ -12,4 +12,4 @@ toc: false
 The problem a team brought you, in two or three sentences.
 
 ## The approach
-What you did and how — kept short, enough to signal competence, not a tutorial.
+What you did and how, kept short. Enough to signal competence, not a tutorial.

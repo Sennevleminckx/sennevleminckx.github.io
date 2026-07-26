@@ -12,4 +12,4 @@ toc: false
 Checking whether a student's references are real and correctly cited is tedious to do by hand, and mismatched or invented citations are easy to miss at grading time.
 
 ## The approach
-I built an internal tool that reads the citations out of a paper, looks up each one's DOI, and cross-checks the cited title against the registered title for that DOI — flagging the references that don't match so a marker can look closer. It turns a slow manual check into a quick, consistent first pass.
+I built an internal tool that reads the citations out of a paper, looks up each one's DOI, and checks the cited title against the registered one. References that don't match get flagged for a closer look, so what used to be a slow manual check becomes a quick first pass.

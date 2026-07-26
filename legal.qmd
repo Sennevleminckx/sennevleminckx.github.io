@@ -19,7 +19,7 @@ toc: false
 
 ## Privacy notice
 
-This is a static website. It sets **no cookies**, uses **no third-party trackers**, and runs **no analytics** — no data about your visit is collected.
+This is a static website. It sets **no cookies**, uses **no third-party trackers**, and runs **no analytics**. No data about your visit is collected.
 
 If you email me, I keep your message and reply; I do not use it for anything else.
 

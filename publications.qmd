@@ -127,7 +127,7 @@ Janssens, N., Van den Berghe, S., Goossens, E., Vanden Wyngaert, K., [Vleminckx,
 ::: {.pub__body}
 [Beyond staffing ratios: how team demographic diversity and stability affect patient safety and staff sustainability in a multi-country study.]{.pub__title}
 
-[Vleminckx, S.]{.me}, De Meulenaere, K., Van Bogaert, P., Abrams, S., Willem, L., Haegdorens, F. *Under review — International Journal of Nursing Studies*.
+[Vleminckx, S.]{.me}, De Meulenaere, K., Van Bogaert, P., Abrams, S., Willem, L., Haegdorens, F. *Under review, International Journal of Nursing Studies*.
 :::
 ::::
 
@@ -138,7 +138,7 @@ Janssens, N., Van den Berghe, S., Goossens, E., Vanden Wyngaert, K., [Vleminckx,
 ::: {.pub__body}
 [The Structured Collaboration Index: a methodological approach for measuring collaboration intensity in multi-team systems.]{.pub__title}
 
-[Vleminckx, S.]{.me}, De Meulenaere, K., Haegdorens, F., Van Bogaert, P., Willem, L. *Under review — Small Group Research*.
+[Vleminckx, S.]{.me}, De Meulenaere, K., Haegdorens, F., Van Bogaert, P., Willem, L. *Under review, Small Group Research*.
 :::
 ::::
 

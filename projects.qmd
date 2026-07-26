@@ -1,6 +1,6 @@
 ---
 pagetitle: "Projects"
-description: "Selected applied and consultancy projects — the problem a team brought me, and how I approached it."
+description: "Selected applied and consultancy projects: the problem a team brought me, and how I approached it."
 page-layout: article
 toc: false
 listing:
@@ -14,7 +14,7 @@ listing:
 
 # Projects
 
-Selected applied work — each one the problem a team brought me, and how I approached it.
+Selected applied work. Each one is the problem a team brought me, and how I approached it.
 
 ::: {#projects}
 :::

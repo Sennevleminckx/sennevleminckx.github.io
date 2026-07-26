@@ -9,7 +9,7 @@ toc: false
 ---
 
 ## The problem
-How much nursing a patient needs is written into nurses' and physicians' free-text notes, but that signal is hard to extract at scale — so staffing and resource decisions rarely draw on it.
+How much nursing a patient needs is written into nurses' and physicians' free-text notes, but that signal is hard to extract at scale, so staffing and resource decisions rarely draw on it.
 
 ## The approach
-During a research stay at Erasmus MC, I built a Dutch-language NLP parser that reads clinical notes and sorts them into workload-relevant categories — for example confusion or delirium, clinical instability, nurse-assisted mobilisation, and bleeding — deliberately separating tasks that need a nurse's time from things patients do independently. I validated it against a set of hand-labelled notes to check the classifications held up.
+During a research stay at Erasmus MC, I built a Dutch-language NLP parser that reads clinical notes and sorts them into workload-relevant categories such as confusion or delirium, clinical instability, nurse-assisted mobilisation, and bleeding. It deliberately separates tasks that need a nurse's time from things patients do on their own. I validated it against a set of hand-labelled notes to check the classifications held up.
