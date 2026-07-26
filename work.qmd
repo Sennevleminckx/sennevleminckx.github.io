@@ -7,10 +7,7 @@ listing:
   id: work
   contents: "work/*.qmd"
   sort: false
-  type: default
-  fields: [title, subtitle, categories]
-  field-display-names:
-    subtitle: ""
+  template: assets/work-listing.ejs
 ---
 
 [Work]{.eyebrow}

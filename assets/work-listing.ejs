@@ -1,0 +1,17 @@
+<div class="list quarto-listing-default">
+<% for (const item of items) { %>
+<div class="quarto-post">
+  <h2 class="listing-title"><a href="<%- item.path %>"><%= item.title %></a></h2>
+<% if (item.subtitle) { %>
+  <div class="listing-subtitle"><a href="<%- item.path %>"><%= item.subtitle %></a></div>
+<% } %>
+<% if (item.categories && item.categories.length) { %>
+  <div class="listing-categories">
+<% for (const cat of item.categories) { %>
+    <div class="listing-category"><%= cat %></div>
+<% } %>
+  </div>
+<% } %>
+</div>
+<% } %>
+</div>

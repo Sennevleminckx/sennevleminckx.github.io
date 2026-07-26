@@ -8,7 +8,7 @@ toc: false
 ::::: {.intro}
 
 :::: {.portrait}
-<img src="assets/img/senne.jpg" alt="Portrait of Senne Vleminckx" width="200" height="250">
+<img src="assets/img/senne.jpg" alt="Portrait of Senne Vleminckx" width="466" height="700">
 ::::
 
 :::: {.intro__text}
