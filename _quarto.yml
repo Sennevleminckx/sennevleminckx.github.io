@@ -42,9 +42,19 @@ website:
     left:
       - text: "Vleminckx Consultancy bv · BE 0785.296.063"
     center:
+      - text: "University profile"
+        href: "https://www.uantwerpen.be/en/staff/senne-vleminckx/"
+      - text: "LinkedIn"
+        href: "https://www.linkedin.com/in/senne-vleminckx/"
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0001-9647-4785"
+      - text: "GitHub"
+        href: "https://github.com/Sennevleminckx"
+      - text: "Email"
+        href: "mailto:senne.vleminckx@icloud.com"
+    right:
       - text: "Legal & privacy"
         href: legal.qmd
-    right:
       - text: "&copy; 2026"
 
 format:
