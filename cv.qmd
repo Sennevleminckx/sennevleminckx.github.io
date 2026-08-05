@@ -8,17 +8,17 @@ toc: false
 
 # Curriculum vitae
 
-[Nurse and quantitative researcher. Nursing workforce, team composition, and health-data methods.]{.cv-lead}
+[Nurse and quantitative researcher. Nursing workforce, team composition, health-data methods, and epidemiological modelling.]{.cv-lead}
 
 [Download CV (PDF)](assets/cv.pdf){.pill}
 
 ## Experience
 
 :::: {.cv-entry}
-[2026 –]{.cv-when}
+[Oct 2026 –]{.cv-when}
 
 ::: {.cv-what}
-[Postdoctoral researcher]{.cv-role}, [University of Antwerp, Faculty of Medicine and Health Sciences]{.cv-where}
+[Postdoctoral researcher]{.cv-role}, [University of Antwerp, Family Medicine and Population Health]{.cv-where}
 :::
 ::::
 

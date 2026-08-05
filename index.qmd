@@ -16,9 +16,9 @@ toc: false
 
 # Senne Vleminckx
 
-[Faculty of Medicine and Health Sciences, University of Antwerp]{.affil}
+[Family Medicine and Population Health, University of Antwerp]{.affil}
 
-I research how nursing teams are put together, how they collaborate, and how that shows up in patient and staff outcomes.
+I research how nursing teams are put together, how they collaborate, and how that shows up in patient and staff outcomes. I am now extending this work into epidemiological modelling and health economics.
 
 Before research, I worked as a nurse in emergency and intensive care.
 ::::

@@ -139,6 +139,17 @@ Janssens, N., Van den Berghe, S., Goossens, E., Vanden Wyngaert, K., [Vleminckx,
 
 :::: {.pub}
 ::: {.pub__meta}
+2026
+:::
+::: {.pub__body}
+[Development and psychometric evaluation of a multidimensional, multilevel scale of nurse autonomy in acute hospital care.]{.pub__title}
+
+Averens, T., [Vleminckx, S.]{.me}, Haegdorens, F., Franck, E. *Under review, Journal of Advanced Nursing*.
+:::
+::::
+
+:::: {.pub}
+::: {.pub__meta}
 2025
 :::
 ::: {.pub__body}
@@ -171,17 +182,6 @@ Slootmans, S., Van Bogaert, P., [Vleminckx, S.]{.me}, Franck, E. *Under review*.
 ::::
 
 ## Manuscripts in preparation
-
-:::: {.pub}
-::: {.pub__meta}
-2026
-:::
-::: {.pub__body}
-[Development and validation of the NA MAPS: the Nurse Autonomy — Multidimensions and Practice Levels Scale.]{.pub__title}
-
-Averens, T., [Vleminckx, S.]{.me}, Haegdorens, F., Franck, E. *In preparation*.
-:::
-::::
 
 :::: {.pub}
 ::: {.pub__meta}
